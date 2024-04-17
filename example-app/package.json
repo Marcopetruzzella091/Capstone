@@ -20,6 +20,7 @@
     },
     "proxy": "https://serpapi.com",
     "dependencies": {
+        "animate.css": "^4.1.1",
         "bootstrap": "^5.3.3",
         "emoji-mart": "^5.5.2",
         "react-bootstrap": "^2.10.2",

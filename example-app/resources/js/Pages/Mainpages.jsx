@@ -12,13 +12,13 @@ import HomePostComponent from '@/Components/HomePostComponent';
 import Navbarcomponents from '@/Components/Navbarcomponents';
 import SinglepostComponent from '@/Components/SinglepostComponent';
 import InputPostComponents from '@/Components/InputPostComponents';
+import TrendsComponent from '@/Components/TrendsComponent';
+
 
 export default function Register(props) {
  
    
 
-   let names = props[0][0];
-   let posties = props[0][0].post //array
  
    console.log(props)
 
@@ -28,13 +28,15 @@ export default function Register(props) {
 
 
     return (<>
-        <Navbarcomponents />
+    <Head title="Homepage" />
+        <Navbarcomponents auth={props.auth} />
+        <TrendsComponent props={props}/>
         <div className='row mx-5'>
-        <div className="col-8 ">   <BioComponent info={props}/></div>
+        <div className="col-8 ">  <h1>head</h1></div>
        
-        <div className="col-8 "> <HomePostComponent /> </div>
-        <div className="col-8 "> <InputPostComponents name ={props}/> </div>
-        <div className="col-8 "> <SinglepostComponent post={posties} name={names}/> </div>
+        <div className="col-8 "> <h1>post</h1> </div>
+        <div className="col-8 "> {/* <InputPostComponents name ={props}/>  */}</div>
+        <div className="col-8 "> {/* <SinglepostComponent post={posties} name={names}/> */} </div>
     </div>
  
     

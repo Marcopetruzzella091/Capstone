@@ -75,5 +75,8 @@ class User extends Authenticatable
         // Ottieni i follower dell'utente autenticato
         return self::findOrFail($userId)->followers;
     }
+    public function commentlikes() {
+        return $this->hasMany(commentlike::class);
+    }
     
 }

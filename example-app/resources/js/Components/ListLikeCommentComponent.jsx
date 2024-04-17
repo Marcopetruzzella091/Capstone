@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 import ListGroup from 'react-bootstrap/ListGroup';
 import { Link } from '@inertiajs/react';
 
-export default function LikeModal(props) {
+export default function ListLikeCommentComponent(props) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -12,11 +12,11 @@ export default function LikeModal(props) {
 
   return (
     <>
-      <b onClick={handleShow}>{props.post.like.length}</b>
+      <b onClick={handleShow}>{props.comment.commentlikes.length}</b>
       <Modal show={show} onHide={handleClose}>
         <Modal.Body>
           <ListGroup variant="flush">
-            {props.post.like.map((like, index) => (
+            {props.comment.commentlikes.map((like, index) => (
               <ListGroup.Item key={index} className='d-flex justify-content-between align-items-center'>
                 <Link href={`/alluser/${like.user.id}`} className='d-flex justify-content-between align-items-center'>
                   <img src={`/storage/${like.user.image_url}`} alt="Immagine Profilo" className="profile-pic" />

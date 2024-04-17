@@ -10,6 +10,7 @@ use App\Http\Controllers\CommentController;
 use App\Http\Controllers\LikeController;
 use App\Http\Controllers\FollowerController;
 use App\Http\Controllers\WebScrapingController;
+use App\Http\Controllers\CommentlikeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -62,6 +63,10 @@ Route::middleware('auth')->group(function () {
     });
 
     Route::get('/crawler', [WebScrapingController::class, 'scrape'])->name('crawler.scrape');
+    Route::get('/homepage', [AlluserController::class, 'index'])->name('alluser.index');
+
+    Route::post('commentlike', [CommentlikeController::class, 'store'])->name('commentlike.store');
+    
 
    /*  Route::get('dashboard', function () {
         return redirect()->action('App\Http\Controllers\AlluserController@show', ['id' => Auth::user()->id]);

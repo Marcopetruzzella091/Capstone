@@ -9,6 +9,8 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Support\Facades\Auth;
+use app\Models\User;
+use App\Models\Trend;
 
 class PostController extends Controller
 {
@@ -37,17 +39,22 @@ class PostController extends Controller
    
        //return ( dd($request));
 
-    $user = Post::create([
-
+       $user = Post::create([
         'user_id' => $request->auth_id,
         'post_content' => $request->post,
         'board_user_id' => $request->board_id
+    ]);
 
-       
+    // Ottieni l'ID del post appena creato
+    $postId = $user->id;
+
+    $trend = Trend::create([
+        'post_id' => $postId,
+        'name' => 'ciao'
     ]);
 
     
-    return to_route('alluser.show', ['id' => $request->board_id])->with('success', 'Post eliminato con successo!');
+      return back()->with('post_created', true);
     
 
     

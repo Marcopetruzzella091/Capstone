@@ -19,9 +19,11 @@ use App\Models\user;
 use App\Models\post;
 use App\Models\comment;
 use App\Models\like;
+use App\Models\commentlike;
 use App\Models\follower;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
+
 
 
 
@@ -33,10 +35,33 @@ class AlluserController extends Controller
     public function index( )
     {  
         
-          $client = new Client();
-        try {
-            $response = $client->request('GET', 'https://serpapi.com/search.json?engine=google_trends_trending_now&frequency=daily&api_key=4eb0c3a207a2f2bcfaa2ce34cbe8cae8ebf56e3802bee5cb9674842c989b2549&geo=IT');
+        $fileContents = file_get_contents(__DIR__ . '/serpapi.json');
+        $fileContents = json_decode($fileContents, true);
+        $user = user::all()->first();  
+        $userspost = Post::with('user' , 'comment.user' , 'like.user', 'comment.commentlikes.user')->get();
+       // ->with('user' , 'comment.user' , 'like.user', 'comment.commentlikes.user' )->get(); 
+        $userallpost = Post::all();
+       
+        $userlike = like::where('user_id', '=', Auth::user()->id)->get();
+        
+        return Inertia::render('Mainpages', [
+            'trends' => $fileContents,
             
+            'user' => $user,
+            'posts' => $userspost
+        ,   'allpost' => $userallpost
+        ,   'like' => $userlike,
+             'action' => false
+       
+            
+        ]);
+         $client = new Client();
+        try {
+           // $response = $client->request('GET', 'https://serpapi.com/search.json?engine=google_trends_trending_now&frequency=daily&api_key=4eb0c3a207a2f2bcfaa2ce34cbe8cae8ebf56e3802bee5cb9674842c989b2549&geo=IT');
+             
+                       
+
+
             if ($response->getStatusCode() == 200) {
                 $data = json_decode($response->getBody()->getContents());
                 // Esegui operazioni sui dati, come inviarli alla vista o elaborarli ulteriormente
@@ -45,8 +70,16 @@ class AlluserController extends Controller
         } catch (\Exception $e) {
             return response()->json(['error' => 'Errore nella richiesta API: ' . $e->getMessage()], 500);
         } 
-        return $data ;
+       
+      
+      
     }
+
+
+
+
+
+    
 
     /**
      * Show the form for creating a new resource.
@@ -77,11 +110,11 @@ class AlluserController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(alluser $alluser, $request)
-    {  
+    public function show(alluser $alluser, $request, request $request2)
+    {   
         $user = user::all()->where('id', '=', $request)->first();  
         $userspost = Post::where('board_user_id', $request)  // post sulla bacheca
-        ->with('user' , 'comment.user' , 'like.user' )->get(); 
+        ->with('user' , 'comment.user' , 'like.user', 'comment.commentlikes.user' )->get(); 
         $userallpost = Post::where('user_id', $request)->get();    
        
         $userlike = like::where('user_id', '=', Auth::user()->id)->get();
@@ -102,9 +135,12 @@ class AlluserController extends Controller
         ,   'like' => $userlike
         ,   'following' => $userFollowing
         ,   'follower' =>  $userFollowers
+        ,   'action' => $request2
+        
       
 
         ]); 
+  
     }
 
     /**
@@ -131,3 +167,5 @@ class AlluserController extends Controller
         //
     }
 }
+
+

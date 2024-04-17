@@ -29,4 +29,7 @@ class Post extends Model
     public function like() {
         return $this->hasMany(like::class);
     }
+    public function trend() { 
+        return $this->hasMany(trend::class);
+    }
 }
