@@ -4,22 +4,32 @@ import Card from 'react-bootstrap/Card';
 import SinglepostComponent from './SinglepostComponent';
 import CreatePostModal from './InputPostComponents';
 import { useState } from 'react';
+import { useSelector, useDispatch } from 'react-redux'
+import { trendsSelected } from '../Redux/Testslice'
+import AdvertistingComponent from './AdvertistingComponent';
 
 export default function TrendsComponent(props) {
-    // Ottieni l'array di tendenze giornaliere
-    console.log(props.props)
+   
+   
     let arrTrend = props.props.trends.daily_searches[0].searches;
-
+    const count = useSelector((state) => state.counter.value)
+     const dispatch = useDispatch()
+     console.log(count)
    
     arrTrend.sort((a, b) => b.count - a.count);
     const [trendsel, setTrendSel] = useState("");
-    console.log(trendsel)
+    const [modal , setModal] = useState(false)
+   
+    
 
     return (
         <>
             <div className='row mx-5'>
-                <div className="col-8">
-                <CreatePostModal name={props.props} />
+                <div className="col-2">
+                    <AdvertistingComponent />
+                </div>
+                <div className="col-6">
+                <CreatePostModal name={props.props}  trend={trendsel}  setmodal={setModal} modal={modal} />
                <SinglepostComponent post={props.props.posts} auth={props.props.auth.user.id}  action={ props.props.action && props.props.action} trends={trendsel} />
                
               
@@ -43,9 +53,23 @@ export default function TrendsComponent(props) {
                                     </div>
                                 </div><hr  className='w-75 mx-auto'/>
                             </div><div className="d-flex justify-content-center">
-                            <button className="btn btn-primary mx-2 " onClick={() => setTrendSel(element.query.split(' ')
+                           <button 
+                                    className="btn btn-primary mx-2" 
+                                    onClick={() => {
+                                        dispatch(trendsSelected(element.query.split(' ')
+                                        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                                        .join('')));
+                                        setModal(true)
+                                       
+                                        
+                                    }}
+                                    >
+                                    Posta Trends
+                                    </button>
+
+                                    <a  className="btn btn-primary mx-2 text-white" href={"/homepage/" + element.query.split(' ')
                                             .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                                            .join(''))}>Posta Trends</button>
+                                            .join('')} >Leggi Trends</a>
                                         <a className="btn btn-primary mx-2 text-white" target="_blank" href={element.articles[0].link}>Leggi articolo</a>
                             </div>
                            
@@ -53,6 +77,7 @@ export default function TrendsComponent(props) {
                     ))}
                 </div>
             </div>
+
         </>
     );
 }

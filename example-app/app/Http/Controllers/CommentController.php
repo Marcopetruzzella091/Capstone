@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\comment;
+use App\Models\notifications;
 use App\Http\Requests\StorecommentRequest;
 use App\Http\Requests\UpdatecommentRequest;
 use Illuminate\Http\Request;
@@ -40,9 +41,21 @@ class CommentController extends Controller
         'comment_content' => $request->postContent
 
         
-
+      
        
     ]);
+    if ($request->userid != $request->board_user_id){
+        $notifications = notifications::create([
+            'user_id_sender' => $request->userid,
+            'user_id_receiver' => $request->board_user_id,
+            'post_id' => $request->postid,
+            'notification_content' => 'commented on your post',
+        ]);
+
+
+    }
+   
+    
 
     
     

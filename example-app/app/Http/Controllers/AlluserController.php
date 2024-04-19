@@ -21,6 +21,7 @@ use App\Models\comment;
 use App\Models\like;
 use App\Models\commentlike;
 use App\Models\follower;
+use App\Models\notifications;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 
@@ -43,6 +44,7 @@ class AlluserController extends Controller
         $userallpost = Post::all();
        
         $userlike = like::where('user_id', '=', Auth::user()->id)->get();
+        $notification = notifications::where('user_id_receiver', '=', Auth::user()->id)->get();
         
         return Inertia::render('Mainpages', [
             'trends' => $fileContents,
@@ -52,6 +54,7 @@ class AlluserController extends Controller
         ,   'allpost' => $userallpost
         ,   'like' => $userlike,
              'action' => false
+        ,   'notification' => $notification
        
             
         ]);
@@ -75,6 +78,39 @@ class AlluserController extends Controller
       
     }
 
+
+
+
+    public function indexshow( $request)
+    {  
+        
+        
+        $fileContents = file_get_contents(__DIR__ . '/serpapi.json');
+        $fileContents = json_decode($fileContents, true);
+        $user = user::all()->first();  
+        $userspost = Post ::where('trend', $request)->with('user' , 'comment.user' , 'like.user', 'comment.commentlikes.user')->get();
+       // ->with('user' , 'comment.user' , 'like.user', 'comment.commentlikes.user' )->get(); 
+        $userallpost = Post::all();
+       
+        $userlike = like::where('user_id', '=', Auth::user()->id)->get();
+        $notification = notifications::where('user_id_receiver', '=', Auth::user()->id)->get();
+        return Inertia::render('Mainpages', [
+            'trends' => $fileContents,
+            
+            'user' => $user,
+            'posts' => $userspost
+        ,   'allpost' => $userallpost
+        ,   'like' => $userlike,
+             'action' => false
+        ,   'notification' => "ciao"
+       
+            
+        ]);
+         
+       
+      
+      
+    }
 
 
 
@@ -114,9 +150,9 @@ class AlluserController extends Controller
     {   
         $user = user::all()->where('id', '=', $request)->first();  
         $userspost = Post::where('board_user_id', $request)  // post sulla bacheca
-        ->with('user' , 'comment.user' , 'like.user', 'comment.commentlikes.user' )->get(); 
+        ->with('user' , 'comment.user' , 'like.user', 'comment.commentlikes.user', 'trend' )->get(); 
         $userallpost = Post::where('user_id', $request)->get();    
-       
+        $notification = notifications::where('user_id_receiver', '=', Auth::user()->id)->with('post', 'user_sender', 'user_receiver') ->get();
         $userlike = like::where('user_id', '=', Auth::user()->id)->get();
         $userFollowing = Follower::where('user_id', $request)->with('following')->get();
         $userFollowers = Follower::where('user_id_following', '=', $request)->with('user')->get();
@@ -136,6 +172,7 @@ class AlluserController extends Controller
         ,   'following' => $userFollowing
         ,   'follower' =>  $userFollowers
         ,   'action' => $request2
+        ,   'notification' => $notification
         
       
 

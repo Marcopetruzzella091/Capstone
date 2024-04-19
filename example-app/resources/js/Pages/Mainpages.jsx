@@ -15,13 +15,20 @@ import InputPostComponents from '@/Components/InputPostComponents';
 import TrendsComponent from '@/Components/TrendsComponent';
 
 
+import { useSelector, useDispatch } from 'react-redux'
+import { trendsSelected } from '../Redux/Testslice'
+
+
 export default function Register(props) {
  
    
 
  
+  
+   const count = useSelector((state) => state.counter)
+   const dispatch = useDispatch()
    console.log(props)
-
+   
    
     
 
@@ -31,13 +38,7 @@ export default function Register(props) {
     <Head title="Homepage" />
         <Navbarcomponents auth={props.auth} />
         <TrendsComponent props={props}/>
-        <div className='row mx-5'>
-        <div className="col-8 ">  <h1>head</h1></div>
-       
-        <div className="col-8 "> <h1>post</h1> </div>
-        <div className="col-8 "> {/* <InputPostComponents name ={props}/>  */}</div>
-        <div className="col-8 "> {/* <SinglepostComponent post={posties} name={names}/> */} </div>
-    </div>
+        
  
     
    

@@ -38,7 +38,9 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::get ('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::get ('/editprofile', [ProfileController::class, 'edit2'])->name('profile.edit2');
+    Route::patch('/editprofile', [ProfileController::class, 'edit2done'])->name('profile.edit2done');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::get ('/home', [AlluserController::class, 'index'])->name('alluser.index');
@@ -64,7 +66,7 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/crawler', [WebScrapingController::class, 'scrape'])->name('crawler.scrape');
     Route::get('/homepage', [AlluserController::class, 'index'])->name('alluser.index');
-
+    Route::get('/homepage/{trend}', [AlluserController::class, 'indexshow'])->name('alluser.indexshow');
     Route::post('commentlike', [CommentlikeController::class, 'store'])->name('commentlike.store');
     
 

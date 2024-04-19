@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -6,6 +6,16 @@ import Container from 'react-bootstrap/Container';
 import { Link } from '@inertiajs/react';
 
 export default function Navbarcomponents(props) {
+
+  const NavbarDropdown = ({ notifications, userName }) => {
+    const [isOpen, setIsOpen] = useState(false)};
+  
+    const toggleDropdown = () => {
+      setIsOpen(!isOpen);
+    };
+
+  
+  console.log(props)
   return (
     <>
       <Navbar className='mb-5' style={{ backgroundColor: 'white' }}>
@@ -21,9 +31,18 @@ export default function Navbarcomponents(props) {
               <Link className="nav-link" href={`/profile/`}>Il mio Profilo</Link>
               <Link className="nav-link" href={route('logout')} method="post">Logout</Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
+              
+            </NavDropdown >
+            <NavDropdown  
+            
+            title={props.auth.user.name} id="navbarScrollingDropdown" >
+            {props.auth.notification.map((notification, index) => 
+                <div>{notification.user_sender.name
+                } <p>{notification.notification_content
+                }</p></div>
+              )}
+              <NavDropdown.Divider />
+              
             </NavDropdown>
           </Navbar.Collapse>
         </Container>

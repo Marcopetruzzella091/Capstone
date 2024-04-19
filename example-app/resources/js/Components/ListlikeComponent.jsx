@@ -12,7 +12,7 @@ export default function LikeModal(props) {
 
   return (
     <>
-      <b onClick={handleShow}>{props.post.like.length}</b>
+      <b onClick={handleShow} className="pointer mx-1">{props.post.like.length}</b>
       <Modal show={show} onHide={handleClose}>
         <Modal.Body>
           <ListGroup variant="flush">

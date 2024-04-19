@@ -10,7 +10,8 @@ class Post extends Model
     protected $fillable = [
         'user_id',
         'post_content',
-        'board_user_id'
+        'board_user_id',
+        'trend',
        
     ];
 
@@ -31,5 +32,9 @@ class Post extends Model
     }
     public function trend() { 
         return $this->hasMany(trend::class);
+    }
+
+    public function notifications() {
+        return $this->hasMany(notifications::class);
     }
 }

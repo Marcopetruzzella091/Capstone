@@ -1,5 +1,6 @@
 import React from 'react';
 import { router } from '@inertiajs/react';
+import { Link } from '@inertiajs/react'
 
 export default function BioComponent(props) {
   let Follow = props.info.follower.find(oggetto => oggetto.user.id === props.info.auth.user.id);
@@ -11,12 +12,12 @@ export default function BioComponent(props) {
   let info = props.info.user;
 
   return (
-    <div className="row">
+    
       <div className="section-box" id="about">
         <div className="row g-4 g-xl-5">
           <div className="col-12 col-xl-4">
-            <div className="hero-avatar">
-              <img src={"/storage/" + info.image_url} alt="" data-rjs="2" />
+            <div className="hero-avatar" >
+              <img src={"/storage/" + info.image_url} alt="" data-rjs="2"  className='rounded-circle' style={{ width: '200px', height: '200px' }}/>
               <div className="hero-avatar-text">
                 <span className="typer" id="typer1" data-words="Hi There!, I'm Christina" data-delay="50" data-deletedelay="1500" style={{ color: 'black' }}> I'm {info.name}</span>
                 <span className="cursor" data-owner="typer1" style={{ transition: 'all 0.1s ease 0s', opacity: 1 }}>_</span>
@@ -32,7 +33,7 @@ export default function BioComponent(props) {
                 {Follow ? "Unfollow" : "Follow"}
               </button>
               :
-              <button className="btn btn-primary mt-3">Modifica Profilo</button>
+               <Link className="btn btn-primary mt-3 text-white"  href="/editprofile">Modifica Profilo</Link> 
             }
             <ul className="list-inline-pills mt-3">
               <li><i className="fa-brands fa-html5 pe-2"></i> #TREND 1</li>
@@ -78,6 +79,6 @@ export default function BioComponent(props) {
           </div>
         </div>
       </div>
-    </div>
+   
   );
 }

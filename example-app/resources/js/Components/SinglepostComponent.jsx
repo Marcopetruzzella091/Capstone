@@ -55,10 +55,11 @@ export default function SinglepostComponent(props) {
   return (
     <>
       {props.post.reverse().map((post, index , arr) => (
-         <div  className={`section-box mt-4 ${props.action.post_created != undefined && index === 0 ? "animate__animated animate__fadeInDown" : ""}`}  key={post.id}>
-          <div className="facebook-post">
+         <div  className={` ${props.action.post_created != undefined && index === 0 ? "animate__animated animate__fadeInDown" : ""}`}  key={post.id}>
+          <div className="facebook-post bg-white">
+            
             <div className="post-header">
-              <img src={`/storage/${post.user.image_url}`} alt="Immagine Profilo" className="profile-pic" />
+              <img src={`/storage/${post.user.image_url}`} onClick={() => router.visit(`/alluser/${post.user.id}`)} alt="Immagine Profilo" className="profile-pic" />
               <div>
                 <strong>{post.user.name + " " + post.user.surname}</strong> <br />
                 <span>ha pubblicato un post</span>
@@ -67,23 +68,23 @@ export default function SinglepostComponent(props) {
             </div>
 
             <div className="post-content">
+            <p ><b>#{post.trend}</b></p>
               <p>{post.post_content}</p>
             </div>
             <div className="post-footer">
               <span onClick={() => handlelike(post.id, props.auth)}>
-                <span className="mx-2">{post.like.every(like => like.user_id !== props.auth) ? "Mi Piace" : "Rimuovi Mi Piace"}</span>
+                <span >{post.like.every(like => like.user_id !== props.auth) ? <i class="bi bi-hand-thumbs-up"></i>: <i class="bi bi-hand-thumbs-up-fill"></i>}</span>
               </span>
-              <ListlikeComponent post={post} userlog={props} />
+              <ListlikeComponent  post={post} userlog={props} />
               <PostComment post={post} userlog={props} />  · Condividi
               {(post.user_id === props.auth || props.auth === post.board_user_id) && (
                 <button onClick={() => handleDeletePost(post.id)}>Elimina</button>
               )}
             </div>
-          </div>
 
-          {/* Commenti */}
+             {/* Commenti */}
           {post.comment.length > 0 && post.comment.map((comment) => (
-            <div className="section-box mt-1" key={comment.id}>
+            <div className=" m-3" key={comment.id}>
               <div className="facebook-post">
                 <div className="post-header">
                   <img src={`/storage/${comment.user.image_url}`} alt="Immagine Profilo" className="profile-pic" />
@@ -104,6 +105,11 @@ export default function SinglepostComponent(props) {
               </div>
             </div>
           ))}
+
+
+          </div>
+
+        
         </div>
       ))}
     </>

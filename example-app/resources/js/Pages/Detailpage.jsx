@@ -5,6 +5,7 @@ import SinglepostComponent from '@/Components/SinglepostComponent';
 import InputPostComponents from '@/Components/InputPostComponents';
 import Followeboxcomponent from '@/Components/Followeboxcomponent';
 import SeguitiComponent from '@/Components/SeguitiComponent';
+import AdvertistingComponent from '@/Components/AdvertistingComponent';
 import { Head } from '@inertiajs/react'
 
 
@@ -15,15 +16,19 @@ export default function Register(props) {
 
     return (
         <>  <Head title="Your Profile" />
-            <Navbarcomponents auth={props.auth} />
+            <Navbarcomponents auth={props} />
+            
             <div className='row mx-5 scrolling-column'>
-                <div className="col-8">
+                <div className="col-2 ">
+                    <div><AdvertistingComponent /></div>
+                </div>
+                <div className="col-7">
                     <div><BioComponent info={props} /></div>
                     <div><HomePostComponent /></div>
                     <div><InputPostComponents name={props} /></div>
                     <div><SinglepostComponent post={props.posts} auth={auth}  action={props.action} /></div>
                 </div>
-                <div className="col-4 fixed-column">
+                <div className="col-3 fixed-column w-25">
                     <Followeboxcomponent props={props} />
                     <SeguitiComponent props={props} />
                 </div>

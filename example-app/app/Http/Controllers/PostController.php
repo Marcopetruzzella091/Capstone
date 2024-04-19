@@ -42,16 +42,17 @@ class PostController extends Controller
        $user = Post::create([
         'user_id' => $request->auth_id,
         'post_content' => $request->post,
-        'board_user_id' => $request->board_id
+        'board_user_id' => $request->board_id,
+        'trend' => $request->trend
     ]);
 
     // Ottieni l'ID del post appena creato
-    $postId = $user->id;
+    /* $postId = $user->id;
 
     $trend = Trend::create([
         'post_id' => $postId,
-        'name' => 'ciao'
-    ]);
+        'name' => $request->trend
+    ]); */
 
     
       return back()->with('post_created', true);
