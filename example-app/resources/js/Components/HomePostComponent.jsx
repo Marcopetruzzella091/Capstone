@@ -15,7 +15,7 @@ export default function HomePostComponent() {
       <ul>
         <li data-filter="all" className="mixitup-control-active">Visualizza tutti</li>
         <li data-filter=".category-1">Piu recenti</li>
-        <li data-filter=".category-2">Piu popolari</li>
+       
       </ul>
     </div>
     </div>

@@ -36,7 +36,7 @@ export default function Register(props) {
 
     return (<>
     <Head title="Homepage" />
-        <Navbarcomponents auth={props.auth} />
+        <Navbarcomponents auth={props} />
         <TrendsComponent props={props}/>
         
  

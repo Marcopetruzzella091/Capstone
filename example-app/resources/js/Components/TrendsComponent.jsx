@@ -7,7 +7,9 @@ import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux'
 import { trendsSelected } from '../Redux/Testslice'
 import AdvertistingComponent from './AdvertistingComponent';
-
+import { usePage } from '@inertiajs/react'
+import { router } from '@inertiajs/react'
+import { Link } from '@inertiajs/react'
 export default function TrendsComponent(props) {
    
    
@@ -24,7 +26,7 @@ export default function TrendsComponent(props) {
 
     return (
         <>
-            <div className='row mx-5'>
+            <div className='row mx-4'>
                 <div className="col-2">
                     <AdvertistingComponent />
                 </div>
@@ -35,7 +37,7 @@ export default function TrendsComponent(props) {
               
 
                 </div>
-                <div className="col-4">
+                <div className="col-4 ">
                     {arrTrend.map((element, index) => (
                         <div className="card mb-3 p-2" key={index} style={{ maxWidth: '540px' }}>
                             <div className="row no-gutters">
@@ -52,7 +54,7 @@ export default function TrendsComponent(props) {
                                         </div>
                                     </div>
                                 </div><hr  className='w-75 mx-auto'/>
-                            </div><div className="d-flex justify-content-center">
+                            </div><div className="d-flex justify-content-center mt-2">
                            <button 
                                     className="btn btn-primary mx-2" 
                                     onClick={() => {
@@ -65,12 +67,14 @@ export default function TrendsComponent(props) {
                                     }}
                                     >
                                     Posta Trends
-                                    </button>
+                                    </button> 
 
-                                    <a  className="btn btn-primary mx-2 text-white" href={"/homepage/" + element.query.split(' ')
+                                   
+
+                                         <Link className="btn btn-success mx-2 text-white" href={"/homepage/" + element.query.split(' ')
                                             .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                                            .join('')} >Leggi Trends</a>
-                                        <a className="btn btn-primary mx-2 text-white" target="_blank" href={element.articles[0].link}>Leggi articolo</a>
+                                            .join('')}>Mostra Trends</Link>   
+                                        <a className="btn btn-white mx-2 text-dark border-dark" target="_blank" href={element.articles[0].link}>Leggi articolo</a>
                             </div>
                            
                         </div>

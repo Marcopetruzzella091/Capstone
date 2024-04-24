@@ -44,7 +44,7 @@ class AlluserController extends Controller
         $userallpost = Post::all();
        
         $userlike = like::where('user_id', '=', Auth::user()->id)->get();
-        $notification = notifications::where('user_id_receiver', '=', Auth::user()->id)->get();
+        $notification = notifications::where('user_id_receiver', '=', Auth::user()->id)->with('post', 'user_sender', 'user_receiver') ->get();
         
         return Inertia::render('Mainpages', [
             'trends' => $fileContents,
@@ -91,9 +91,10 @@ class AlluserController extends Controller
         $userspost = Post ::where('trend', $request)->with('user' , 'comment.user' , 'like.user', 'comment.commentlikes.user')->get();
        // ->with('user' , 'comment.user' , 'like.user', 'comment.commentlikes.user' )->get(); 
         $userallpost = Post::all();
+        $notification = notifications::where('user_id_receiver', '=', Auth::user()->id)->with('post', 'user_sender', 'user_receiver') ->get();
        
         $userlike = like::where('user_id', '=', Auth::user()->id)->get();
-        $notification = notifications::where('user_id_receiver', '=', Auth::user()->id)->get();
+        
         return Inertia::render('Mainpages', [
             'trends' => $fileContents,
             
@@ -102,7 +103,7 @@ class AlluserController extends Controller
         ,   'allpost' => $userallpost
         ,   'like' => $userlike,
              'action' => false
-        ,   'notification' => "ciao"
+             ,   'notification' => $notification
        
             
         ]);
@@ -150,7 +151,7 @@ class AlluserController extends Controller
     {   
         $user = user::all()->where('id', '=', $request)->first();  
         $userspost = Post::where('board_user_id', $request)  // post sulla bacheca
-        ->with('user' , 'comment.user' , 'like.user', 'comment.commentlikes.user', 'trend' )->get(); 
+        ->with('user' , 'comment.user' , 'like.user', 'comment.commentlikes.user' )->get(); 
         $userallpost = Post::where('user_id', $request)->get();    
         $notification = notifications::where('user_id_receiver', '=', Auth::user()->id)->with('post', 'user_sender', 'user_receiver') ->get();
         $userlike = like::where('user_id', '=', Auth::user()->id)->get();
@@ -179,6 +180,99 @@ class AlluserController extends Controller
         ]); 
   
     }
+
+
+    public function showpost(alluser $alluser, $request, request $request2, post $post)
+    {   
+        $user = user::all()->where('id', '=', $request)->first();  
+        $userspost = Post::where('id', $post->id)   // post sulla bacheca
+        ->with('user' , 'comment.user' , 'like.user', 'comment.commentlikes.user', 'trend' )->get(); 
+        $userallpost = Post::where('user_id', $request)->get();    
+        $notification = notifications::where('user_id_receiver', '=', Auth::user()->id)->with('post', 'user_sender', 'user_receiver') ->get();
+        $userlike = like::where('user_id', '=', Auth::user()->id)->get();
+        $userFollowing = Follower::where('user_id', $request)->with('following')->get();
+        $userFollowers = Follower::where('user_id_following', '=', $request)->with('user')->get();
+       
+
+    
+
+
+       
+        
+      
+         return Inertia::render('Detailpage' , [
+            'user' => $user,
+            'posts' => $userspost
+        ,   'allpost' => $userallpost
+        ,   'like' => $userlike
+        ,   'following' => $userFollowing
+        ,   'follower' =>  $userFollowers
+        ,   'action' => $request2
+        ,   'notification' => $notification
+        
+      
+
+        ]); 
+  
+    }
+
+    public function showpostlast5(alluser $alluser, $request, request $request2, post $post)
+    {   
+        $user = user::all()->where('id', '=', $request)->first();  
+        $userspost = Post::latest()->take(5)->get();
+        
+        $userallpost = Post::where('user_id', $request)->get();    
+        $notification = notifications::where('user_id_receiver', '=', Auth::user()->id)->with('post', 'user_sender', 'user_receiver') ->get();
+        $userlike = like::where('user_id', '=', Auth::user()->id)->get();
+        $userFollowing = Follower::where('user_id', $request)->with('following')->get();
+        $userFollowers = Follower::where('user_id_following', '=', $request)->with('user')->get();
+       
+
+    
+
+
+       
+        
+      
+         return Inertia::render('Detailpage' , [
+            'user' => $user,
+            'posts' => $userspost
+        ,   'allpost' => $userallpost
+        ,   'like' => $userlike
+        ,   'following' => $userFollowing
+        ,   'follower' =>  $userFollowers
+        ,   'action' => $request2
+        ,   'notification' => $notification
+        
+      
+
+        ]); 
+  
+    }
+
+
+
+
+
+
+
+    public function search(Request $request, $input)
+    {  
+        $query = $request->input('query');
+
+        // Utilizza l'operatore LIKE per cercare gli utenti il cui nome contiene la porzione del testo fornita
+        $users = User::where('name', 'LIKE', '%'.$input .'%')->get();
+
+        return response()->json(['users' => $users]);
+    }
+
+
+
+
+
+
+
+
 
     /**
      * Show the form for editing the specified resource.

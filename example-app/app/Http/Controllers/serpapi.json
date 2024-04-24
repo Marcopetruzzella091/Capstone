@@ -1,14 +1,14 @@
 {
     "search_metadata": {
-        "id": "661f85502fe302db0e4b1086",
+        "id": "6628c7605c10592953be5b63",
         "status": "Success",
-        "json_endpoint": "https://serpapi.com/searches/6e575aca95a38401/661f85502fe302db0e4b1086.json",
-        "created_at": "2024-04-17 08:16:16 UTC",
-        "processed_at": "2024-04-17 08:16:16 UTC",
+        "json_endpoint": "https://serpapi.com/searches/6e575aca95a38401/6628c7605c10592953be5b63.json",
+        "created_at": "2024-04-24 08:48:32 UTC",
+        "processed_at": "2024-04-24 08:48:32 UTC",
         "google_trends_trending_now_url": "https://trends.google.com/trends/api/dailytrends?hl=en&geo=IT&ed=20240415",
-        "raw_html_file": "https://serpapi.com/searches/6e575aca95a38401/661f85502fe302db0e4b1086.html",
-        "prettify_html_file": "https://serpapi.com/searches/6e575aca95a38401/661f85502fe302db0e4b1086.prettify",
-        "total_time_taken": 1.35
+        "raw_html_file": "https://serpapi.com/searches/6e575aca95a38401/6628c7605c10592953be5b63.html",
+        "prettify_html_file": "https://serpapi.com/searches/6e575aca95a38401/6628c7605c10592953be5b63.prettify",
+        "total_time_taken": 0.42
     },
     "search_parameters": {
         "engine": "google_trends_trending_now",
@@ -23,54 +23,54 @@
             "searches": [
                 {
                     "query": "Atalanta-Verona",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Atalanta-Verona&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Atalanta-Verona&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Atalanta-Verona&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Atalanta-Verona&tz=420",
                     "traffic": 200000,
                     "related_queries": [
                         {
                             "query": "atalanta verona",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=atalanta+verona&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=atalanta+verona&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=atalanta+verona&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=atalanta+verona&tz=420"
                         },
                         {
                             "query": "Atalanta",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Atalanta&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Atalanta&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Atalanta&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Atalanta&tz=420"
                         },
                         {
                             "query": "scamacca",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=scamacca&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=scamacca&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=scamacca&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=scamacca&tz=420"
                         },
                         {
                             "query": "Hellas Verona",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Hellas+Verona&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Hellas+Verona&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Hellas+Verona&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Hellas+Verona&tz=420"
                         }
                     ],
                     "articles": [
-                        {
-                            "title": "Atalanta-Verona 2-2, rimonta gialloblu e stop nerazzurri",
-                            "link": "https://www.sulpanaro.net/2024/04/atalanta-verona-2-2-rimonta-gialloblu-e-stop-nerazzurri/",
-                            "snippet": "(Adnkronos) - Atalanta e Verona pareggiano 2-2 match in calendario oggi per la 32esima giornata della Serie A 2023-2024. I nerazzurri, che devono recuperare ...",
-                            "source": "SulPanaro",
-                            "date": "1d ago",
-                            "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQeseaOZnxAO0Xgu0BbR8Zd5snbQP_KVomrgwP3xtX_R3qqERIIjRicg73BygexbhF7hqZuZWs"
-                        },
                         {
                             "title": "Atalanta-Verona 2-2: Gasperini beffato e a -4 dalla Roma",
                             "link": "https://www.corrieredellosport.it/news/calcio/serie-a/2024/04/15-125913090/atalanta-verona_2-2_gasperini_beffato_e_a_-4_dalla_roma",
                             "snippet": "I nerazzurri dominano al Gewiss Stadium ma si fanno sorprendere in quattro minuti: non bastano Scamacca e Ederson.",
                             "source": "Corriere dello Sport.it",
-                            "date": "18h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcRnrJdz8Y1giLUtxX_78cHhmxWp9S9mmLb6_mDFd-6PaQX-0Kal1TZu6Qo9NAy9keVy7lrmMsIN"
+                        },
+                        {
+                            "title": "Atalanta-Verona 2-2, rimonta gialloblu e stop nerazzurri",
+                            "link": "https://www.sulpanaro.net/2024/04/atalanta-verona-2-2-rimonta-gialloblu-e-stop-nerazzurri/",
+                            "snippet": "(Adnkronos) - Atalanta e Verona pareggiano 2-2 match in calendario oggi per la 32esima giornata della Serie A 2023-2024. I nerazzurri, che devono recuperare ...",
+                            "source": "SulPanaro",
+                            "date": "1w ago",
+                            "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQeseaOZnxAO0Xgu0BbR8Zd5snbQP_KVomrgwP3xtX_R3qqERIIjRicg73BygexbhF7hqZuZWs"
                         },
                         {
                             "title": "Verona, punto d'oro in rimonta: 2-2 con l'Atalanta",
                             "link": "https://sport.sky.it/calcio/serie-a/partite/2023/giornata-32/atalanta-verona/risultato-gol",
                             "snippet": "Atalanta Verona su Sky Sport: scopri tutti gli aggiornamenti sulla partita di Serie A in tempo reale.",
                             "source": "Sky Sport",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcT3Xou8TsOhk7M7VI7lHUGVtZPAbEdQw6eTc3jFWePeO912ifzUxqa2tyz1x3BauXGPJezU7sgV"
                         },
                         {
@@ -78,22 +78,22 @@
                             "link": "https://www.repubblica.it/sport/dirette/calcio/serie-a-2023/diretta-atalanta-verona-g2380704/",
                             "snippet": "Il match si sblocca al 13esimo minuto, con Koopmeiners che serve Scamacca in area di rigore, con quest'ultimo che conclude al volo con il destro, ...",
                             "source": "La Repubblica",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcT5uExKtms0kUnia_nFFw8hQDzyGwoYRByyZmtx-lsasZy7D4S8UUc3juUo4a3cU2uzPxJ7RXE3"
                         },
                         {
                             "title": "Giovanni Vitacchio IL PAGELLONE DI ATALANTA-VERONA",
                             "link": "https://blog.telenuovo.it/giovanni-vitacchio/2024/04/15/il-pagellone-di-atalanta-verona-4/",
                             "snippet": "MONTIPO' 7 Para benissimo su De Ketelaere, nel primo tempo e su Miranchuk, non una ma ben tre volte, blindando un pareggio fondamentale per la corsa a una ...",
-                            "source": "TgPadova",
-                            "date": "1d ago"
+                            "source": "TgVerona",
+                            "date": "1w ago"
                         },
                         {
                             "title": "Atalanta-Verona, probabili formazioni: spazio a Miranchuk, Baroni ...",
                             "link": "https://www.mediagol.it/serie-a/atalanta-verona-probabili-formazioni-spazio-a-miranchuk-baroni-con-bonazzoli/",
                             "snippet": "Le probabili formazioni di Atalanta-Verona, partita che chiuderà la trentaduesima giornata del campionato di Serie A.",
                             "source": "Mediagol.it",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcQhJ6BXXLRleslfNDGS83Qz-qeJWOlEPvGm7J_B7nVaPVfodnl4m7qe6MsvhC6EtcGlJ82Fxi5j"
                         },
                         {
@@ -101,31 +101,31 @@
                             "link": "https://www.eurosport.it/calcio/serie-a/2023-2024/atalanta-verona-2-2-pagelle-scamacca-e-noslin-i-migliori-in-campo.-cdk-poco-concreto-ederson-brillan_sto10104382/story.shtml",
                             "snippet": "Scamacca conferma di attraversare un momento magico, De Ketelaere intraprendente. Ederson brillante. Hellas da incubo per un tempo, poi Noslin (il migliore dei ...",
                             "source": "Eurosport.it",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcSUTrMU2icJd_UuRuiGuApoAGrJ2ESbwwr6qZSudzraDpjHnG9lNVclpY4ufBGxeptwGTTb_6ZP"
                         }
                     ]
                 },
                 {
                     "query": "Fiorentina-Genoa",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Fiorentina-Genoa&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Fiorentina-Genoa&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Fiorentina-Genoa&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Fiorentina-Genoa&tz=420",
                     "traffic": 100000,
                     "related_queries": [
                         {
                             "query": "fiorentina genoa",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=fiorentina+genoa&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=fiorentina+genoa&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=fiorentina+genoa&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=fiorentina+genoa&tz=420"
                         },
                         {
                             "query": "Genoa",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Genoa&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Genoa&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Genoa&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Genoa&tz=420"
                         },
                         {
                             "query": "genoa fiorentina",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=genoa+fiorentina&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=genoa+fiorentina&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=genoa+fiorentina&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=genoa+fiorentina&tz=420"
                         }
                     ],
                     "articles": [
@@ -134,7 +134,7 @@
                             "link": "https://www.rainews.it/video/2024/04/fiorentina-genoa-la-sintesi-della-partita-1727515b-39ea-4c1d-b06c-88b40af35cd9.html",
                             "snippet": "Al 42' il rigore che sblocca il match, al 54' il pareggio della Viola, che aveva avuto già un gol annullato a Belotti per fuorigioco.",
                             "source": "Rai Sport",
-                            "date": "10h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcTkdXCXKukJqOXUdxBETGYokuUlTstatlQWaxN4eJSjZaYJqy6jR8E9tyZbYQRiVvouLelahaah"
                         },
                         {
@@ -142,7 +142,7 @@
                             "link": "https://sport.sky.it/calcio/serie-a/partite/2023/giornata-32/fiorentina-genoa/risultato-gol",
                             "snippet": "Fiorentina Genoa su Sky Sport: scopri tutti gli aggiornamenti sulla partita di Serie A in tempo reale.",
                             "source": "Sky Sport",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcS7l1vrUutkr95u6CQlBfkBH16FlCQLv4mBOG1-5znoXgUXBdc6mxen9qvsxMvuFZg6kjeLomdG"
                         },
                         {
@@ -150,15 +150,15 @@
                             "link": "https://www.rainews.it/articoli/2024/04/calcio-serie-a-giornata-32-fiorentina-genoa-stadio-artemio-franchi-firenze-cronaca-testuale-8539c62f-ab86-42b6-81ec-70119160bf64.html",
                             "snippet": "Al 42' il rigore che sblocca il match, al 54' il pareggio della Viola, che aveva avuto già un gol annullato a Belotti per fuorigioco.",
                             "source": "Rai News",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcTtmz_tjw7VlIX3vLbgXCXIl06ViO-8mY0LoMgNEHr5Uj_KYMzlUzlfz0oYniLmNvlHFPvqlV-R"
                         },
                         {
                             "title": "Fiorentina-Genoa 1-1: Ikoné risponde a Gudmundsson, Italiano ...",
                             "link": "https://www.corrieredellosport.it/news/calcio/serie-a/2024/04/15-125907354/fiorentina-genoa_1-1_ikone_risponde_a_gudmundsson_italiano_frena_ancora",
-                            "snippet": "Si chiude in parità la sfida al Franchi valida per la 32ª giornata di Serie A: rallenta ancora la viola, punto importante per Gilardino.",
+                            "snippet": "Gudmundsson sblocca nel primo tempo su rigore (disastro di Martinez Quarta) ma nella ripresa gli risponde Ikoné. Frena ancora la Fiorentina di Italiano, decima ...",
                             "source": "Corriere dello Sport.it",
-                            "date": "15h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcTYIPXVWNw2kxkuSQizCZMJlTIKXg8H0ZMCwQsTYiyi8bnge8QdrI-xg9TWLEqzP67mC3n18mTY"
                         },
                         {
@@ -166,7 +166,7 @@
                             "link": "https://www.sulpanaro.net/2024/04/fiorentina-genoa-1-1-ikone-risponde-a-gudmundsson/",
                             "snippet": "(Adnkronos) - Si chiude in pareggio 1-1 lo scontro del Franchi tra Fiorentina e Genoa, gara valida per la 32esima giornata di Serie A. La squadra di ...",
                             "source": "SulPanaro",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQq28nDIm7GFFt77PbuObsJ8SecjhFwot8H7C3pJeZusIQu8JbB26Qs9IOdvxDjUXQdIUZ2_vU3"
                         },
                         {
@@ -174,7 +174,7 @@
                             "link": "https://www.repubblica.it/sport/dirette/calcio/serie-a-2023/diretta-fiorentina-genoa-g2380706/",
                             "snippet": "Rallenta ancora la Fiorentina, che non va oltre l'1-1 in casa contro il Genoa. I rossoblù sbloccano la gara con il calcio di rigore trasformato da ...",
                             "source": "La Repubblica",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcT5uExKtms0kUnia_nFFw8hQDzyGwoYRByyZmtx-lsasZy7D4S8UUc3juUo4a3cU2uzPxJ7RXE3"
                         },
                         {
@@ -182,7 +182,7 @@
                             "link": "https://www.corrieredellosport.it/news/calcio/serie-a/fiorentina/2024/04/15-125909234/furia_ranieri_durante_fiorentina-genoa_la_frase_urlata_al_quarto_uomo",
                             "snippet": "Finale nervoso al Franchi, con il difensore viola che si è scagliato contro il direttore di gara e il suo assistente: ecco che cosa è successo.",
                             "source": "Corriere dello Sport.it",
-                            "date": "2h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcRdpDuTk-5komwNBFlSCEoelJVk4yPx7XNuYr1cxvOQfFIR5yzczuFyWcNIO4P5GLsQKdLak46p1A"
                         },
                         {
@@ -190,7 +190,7 @@
                             "link": "https://www.mediagol.it/fiorentina/fiorentina-genoa-1-1-ikone-risponde-a-gudmundsson-pari-tra-italiano-e-gilardino/",
                             "snippet": "In uno dei due posticipi della trentaduesima giornata di Serie A la Fiorentina di Italiano va a sbattere sul Genoa di Gilardino.",
                             "source": "Mediagol.it",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcTb3rHjEKGbqdYPe0GnB7qeRLxMM1OW9zGP4kpDL7YGRkoZJx_KhfaGNtN3MSksPMXJXUi858bt"
                         },
                         {
@@ -198,66 +198,79 @@
                             "link": "https://www.fanpage.it/sport/calcio/ranieri-si-infuria-con-larbitro-nel-finale-di-fiorentina-genoa-fate-le-cose-al-contrario-voi-due/",
                             "snippet": "Alla fine della partita Ranieri si sfoga contro l'arbitraggio di Fiorentina-Genoa: \"Vedete le cose al contrario, ma fischia al primo fallo!\"",
                             "source": "Napoli Fanpage",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcRgXixAqUDbST4yMhVDeeM6Teu-wjwo1prJmlw9cY6lrXNwGS64GAQqsM_Wc2t794gWgn-olYPB"
                         }
                     ]
                 },
                 {
                     "query": "Amadeus",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Amadeus&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Amadeus&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Amadeus&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Amadeus&tz=420",
                     "traffic": 100000,
                     "related_queries": [
                         {
                             "query": "Amadeus lascia la Rai",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Amadeus+lascia+la+Rai&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Amadeus+lascia+la+Rai&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Amadeus+lascia+la+Rai&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Amadeus+lascia+la+Rai&tz=420"
                         },
                         {
                             "query": "amadeus va via dalla rai",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=amadeus+va+via+dalla+rai&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=amadeus+va+via+dalla+rai&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=amadeus+va+via+dalla+rai&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=amadeus+va+via+dalla+rai&tz=420"
                         },
                         {
                             "query": "Stefano De Martino",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Stefano+De+Martino&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Stefano+De+Martino&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Stefano+De+Martino&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Stefano+De+Martino&tz=420"
                         },
                         {
                             "query": "Fiorello",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Fiorello&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Fiorello&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Fiorello&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Fiorello&tz=420"
+                        },
+                        {
+                            "query": "Discovery",
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Discovery&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Discovery&tz=420"
                         },
                         {
                             "query": "Fabio Fazio",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Fabio+Fazio&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Fabio+Fazio&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Fabio+Fazio&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Fabio+Fazio&tz=420"
                         }
                     ],
                     "articles": [
+                        {
+                            "title": "Televisione e spettacolo. Coraggio, Rai: con l'uscita di Amadeus ...",
+                            "link": "https://www.avvenire.it/agora/pagine/amadeus-via-dalla-rai-largo-ai-giovani-castellani",
+                            "snippet": "I giovani teleconduttori che finora hanno viaggiato con il freno a mano vanno lasciati liberi di osare, perché è solo così che potranno arrivare a scalare ...",
+                            "source": "Avvenire.it",
+                            "date": "1w ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcR5IYA1Q_VvMKtr7fc24oAmHGcV8NEprj5SbbPnaQsVIvMf1pe5j-md2SdePmmnsI1ep7RyI_yn"
+                        },
                         {
                             "title": "Amadeus lascia la Rai. L'annuncio al dg Rossi. Il saluto al pubblico ...",
                             "link": "https://www.repubblica.it/spettacoli/tv-radio/2024/04/15/news/amadeus_lascia_la_rai_lannuncio_ufficiale-422531742/",
                             "snippet": "Il conduttore Amadeus ha ufficializzato l'addio alla Rai confermando di volersi impegnare in nuove sfide professionali, che lo attendono sul canale Nove.",
                             "source": "La Repubblica",
-                            "date": "10h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcTYmucfILCZdU2XW485a1zm2RvePZWKRis2HN41i2TPokU0UVOSK3DiIUcOgYUfa8unnuZOBssj"
                         },
                         {
-                            "title": "Televisione e spettacolo. Coraggio, Rai: con l'uscita di Amadeus ...",
-                            "link": "https://www.avvenire.it/agora/pagine/amadeus-via-dalla-rai-largo-ai-giovani-castellani",
-                            "snippet": "Televisione e spettacolo. Coraggio, Rai: con l'uscita di Amadeus, largo ai giovani. Massimiliano Castellani martedì 16 aprile 2024.",
-                            "source": "Avvenire.it",
-                            "date": "15h ago",
-                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcR5IYA1Q_VvMKtr7fc24oAmHGcV8NEprj5SbbPnaQsVIvMf1pe5j-md2SdePmmnsI1ep7RyI_yn"
+                            "title": "Mamma di O. | Amadeus al Nove vale atomica iraniana, e altri ...",
+                            "link": "https://www.linkiesta.it/2024/04/amadeus-nove-rai-conduttore/",
+                            "snippet": "C'è un motivo se il nono canale sta cercando di strappare i migliori presentatori alla Rai: se ti affacci in un mercato saturo, ti fai notare ingaggiando i nomi ...",
+                            "source": "Linkiesta.it",
+                            "date": "1w ago",
+                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcQSJ29mhD1JG42Td6gLAhLBVa8zKKr2035PhX6S9Bj0KTeWeZP5om8NyYAxxlLekAsm0M9u_xzr"
                         },
                         {
                             "title": "Fiorello a Vivarai2: \"Amadeus unico antidoto alla guerra, si parla ...",
                             "link": "https://www.rainews.it/video/2024/04/fiorello-parla-di-amadeus-rai-partenza-antidoto-guerra-224fdeeb-d592-4149-bdba-0ead767b0a8a.html",
                             "snippet": "Tanti articoli fanno riferimento anche al destino dello stesso showman: \"Volente o nolente io sono coinvolto. Volevo ricordare ai giornalisti che io e Ama ...",
                             "source": "Rai News",
-                            "date": "8h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcSw6AvFFMkgQZ2NeqkjCoc9ZqEDj8K2xP5vvGs8XiNVdueMzlVoGEiZhIN6uTQp2OW4YrYkNSD2"
                         },
                         {
@@ -265,23 +278,15 @@
                             "link": "https://www.sulpanaro.net/2024/04/fiorello-io-e-amadeus-amici-ma-diversi-tipo-lui-va-al-nove-e-io-no/",
                             "snippet": "(Adnkronos) - Oggi a 'VivaRai2!', durante il mattin show, Fiorello ammette di essere alla ricerca di notizie più leggere, per contrastare quelle così ...",
                             "source": "SulPanaro",
-                            "date": "23h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcRB-YREo3ZDlQSnV6WAq0lwZ8kpUyuzuzHE7gbI3mnqTV-2VALegryEaaBdqyftPjf9VbdF4hI"
-                        },
-                        {
-                            "title": "Mamma di O. | Amadeus al Nove vale atomica iraniana, e altri ...",
-                            "link": "https://www.linkiesta.it/2024/04/amadeus-nove-rai-conduttore/",
-                            "snippet": "C'è un motivo se il nono canale sta cercando di strappare i migliori presentatori alla Rai: se ti affacci in un mercato saturo, ti fai notare ingaggiando i nomi ...",
-                            "source": "Linkiesta.it",
-                            "date": "5h ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcQSJ29mhD1JG42Td6gLAhLBVa8zKKr2035PhX6S9Bj0KTeWeZP5om8NyYAxxlLekAsm0M9u_xzr"
                         },
                         {
                             "title": "Fiorello: \"Io e Amadeus amici ma lui va a Nove e io no\"",
                             "link": "https://www.agi.it/spettacolo/televisione/news/2024-04-16/fiorello-amadeus-nove-26047119/",
                             "snippet": "Nella puntata odierna di 'Viva Rai2!', lo showman è tornato sulla decisione del conduttore di lasciare il servizio pubblico.",
                             "source": "AGI - Agenzia Giornalistica Italia",
-                            "date": "19h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcTqu0ruHtR_MNZLDhOUBCXWOmD7lFLc_gv4Jq0RZOZN3MMN0gmDcCDzFbQwRv-8DMypCmm-j9TQ"
                         },
                         {
@@ -289,41 +294,132 @@
                             "link": "https://www.repubblica.it/spettacoli/tv-radio/2024/04/16/news/fiorello_dopo_laddio_di_amadeus_meloni_ha_chiamato_la_rai_per_trattenermi_sono_lusingato_ma_io_ho_gia_un_contratto_con_i-422543199/",
                             "snippet": "A Viva Rai2! lo showman torna sul caso del giorno e scherza: “Dal dieci maggio vado in letargo e poi vi dico siamo amici ma, vi dò una notizia, ...",
                             "source": "La Repubblica",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcSk3X7GVffsonQ1qJuUFCMx218-V-83EPtfBqIqE8UIF2ZleTCK85ts5ROP45UAcupWQR9f2kbc"
                         }
                     ]
                 },
                 {
+                    "query": "Nadal",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Nadal&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Nadal&tz=420",
+                    "traffic": 100000,
+                    "related_queries": [
+                        {
+                            "query": "barcellona atp",
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=barcellona+atp&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=barcellona+atp&tz=420"
+                        },
+                        {
+                            "query": "Rafael Nadal",
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Rafael+Nadal&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Rafael+Nadal&tz=420"
+                        },
+                        {
+                            "query": "Cobolli",
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Cobolli&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Cobolli&tz=420"
+                        },
+                        {
+                            "query": "flavio cobolli",
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=flavio+cobolli&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=flavio+cobolli&tz=420"
+                        },
+                        {
+                            "query": "nadal cobolli",
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=nadal+cobolli&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=nadal+cobolli&tz=420"
+                        }
+                    ],
+                    "articles": [
+                        {
+                            "title": "Nadal e la dura risposta a Tsitsipas in conferenza stampa a Barcellona",
+                            "link": "https://www.corrieredellosport.it/news/tennis/2024/04/17-125995443/nadal_e_la_dura_risposta_a_tsitsipas_in_conferenza_stampa_a_barcellona",
+                            "snippet": "BARCELLONA (SPAGNA) - \"Ha detto una cosa stupida\". Non usa giri di parole Rafa Nadal per replicare a una frase di Stefanos Tsitsipas che proprio non sembrà ...",
+                            "source": "Corriere dello Sport.it",
+                            "date": "6d ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcQHspxCwSXOTUzKa-uS7y7wvvgPQyWarPuI009QYhDdV8K6tPLsgwQITKg2DMUjD7Ly30iXNhZ0"
+                        },
+                        {
+                            "title": "Nadal ko al 2° turno all'ATP Barcellona: De Minaur vince in due set",
+                            "link": "https://sport.sky.it/tennis/2024/04/17/nadal-de-minaur-atp-barcellona-risultato",
+                            "snippet": "Si ferma al secondo turno il cammino di Nadal a Barcellona, battuto in due set da Alex De Minaur. Una partita con tanti errori per lo spagnolo che ha chiuso ...",
+                            "source": "Sky Sport",
+                            "date": "6d ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcTtKPAVKGb4xXI7nCmxHNxponJ6-d5ksIqNs9bqftMMt3EkX-T0L5k3ex3os8l_YnlK4ywkc5_K"
+                        },
+                        {
+                            "title": "Nadal, la strada per il ritorno è lunga: avanza De Minaur",
+                            "link": "https://www.supertennis.tv/News/Atp/de-minaur-nadal-barcellona-cronaca-risultato",
+                            "snippet": "Alex De Minaur è il primo australiano a battere Rafa Nadal sulla terra battuta. A Barcellona.",
+                            "source": "SuperTennis",
+                            "date": "6d ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcQ5kb_yKWgC0DCld-RIqfiEkzu6c3EUcLdERXGQE0R5Z7s1J_-zazL1-qfsqCQUSovC4v3Vlhx8"
+                        },
+                        {
+                            "title": "Nadal crolla con De Minaur e saluta Barcellona tra la commozione",
+                            "link": "https://www.gazzetta.it/Tennis/ATP/17-04-2024/nadal-si-arrende-a-de-minaur-a-barcellona.shtml",
+                            "snippet": "Il mancino lotta solo un set poi cede 7-5 6-1 all'australiano. Aveva detto che sarebbe stata l'ultima volta nel 500 catalano.",
+                            "source": "La Gazzetta dello Sport",
+                            "date": "6d ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcT0GbYXBDCHVuYsf9HPotJK_n5CX4mUCMAYlHtKjBpddQOohO17KVBB2QYsC0pQvAE8Gojqk6QE"
+                        },
+                        {
+                            "title": "Atp Barcellona, Nadal torna e batte Cobolli al primo turno",
+                            "link": "https://www.sulpanaro.net/2024/04/atp-barcellona-nadal-torna-e-batte-cobolli-al-primo-turno/",
+                            "snippet": "(Adnkronos) - Rafa Nadal torna in campo e vince. Nel torneo Atp di Barcellona, il 37enne spagnolo si impone per 6-2, 6-3 in 1h25' sull'italiano Flavio ...",
+                            "source": "SulPanaro",
+                            "date": "1w ago",
+                            "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcTtrT5r9qS2BBsTvRm80pwMi_c-6ucmCKLgziOJ4ji2_QcAaUivaBIkDvbybH4hUOzYRCqIdLd5"
+                        },
+                        {
+                            "title": "Nadal eliminato dall'Atp di Barcellona da De Minaur, ma lo ...",
+                            "link": "https://www.corriere.it/sport/tennis/24_aprile_17/nadal-deminaur-atp-barcellona-risultato-b016c1ba-fcd4-11ee-aae1-e680bdf66643.shtml",
+                            "snippet": "Niente da fare per Rafael Nadal, che sulla terra rossa di Barcellona (dove ha trionfato 12 volte in carriera) aveva esordito nel modo migliore contro...",
+                            "source": "Buone Notizie",
+                            "date": "6d ago",
+                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcSVLoIDmCuxnGz3GHxmlKpYkCModrez83pwW96yfi9mJhW2HLMCEj3e-1Bz6jpqGmJlEw37ONYX"
+                        },
+                        {
+                            "title": "Nadal non la prende bene: la risposta a Tsitsipas, \"Ha detto una ...",
+                            "link": "https://www.tuttosport.com/news/tennis/2024/04/17-125983435/nadal_non_la_prende_bene_la_risposta_a_tsitsipas_ha_detto_una_cosa_stupida_",
+                            "snippet": "Lo spagnolo, tornato in campo dopo 103 giorni, commenta la vittoria a Barcellona su Flavio Cobolli e replica alle esternazioni del greco.",
+                            "source": "Tuttosport",
+                            "date": "1w ago",
+                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcR5E5f3yUOeIG-qgCg9jyTqSlGBF7GqGwC5b4AVBfBO97R1amGpqmnxMVEuniVrqq9FO5ycSb_b"
+                        }
+                    ]
+                },
+                {
                     "query": "Alfa Romeo Milano",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Alfa+Romeo+Milano&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Alfa+Romeo+Milano&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Alfa+Romeo+Milano&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Alfa+Romeo+Milano&tz=420",
                     "traffic": 100000,
                     "related_queries": [
                         {
                             "query": "Alfa Romeo Milano cambia nome",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Alfa+Romeo+Milano+cambia+nome&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Alfa+Romeo+Milano+cambia+nome&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Alfa+Romeo+Milano+cambia+nome&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Alfa+Romeo+Milano+cambia+nome&tz=420"
                         },
                         {
                             "query": "Alfa Romeo",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Alfa+Romeo&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Alfa+Romeo&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Alfa+Romeo&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Alfa+Romeo&tz=420"
                         },
                         {
                             "query": "Alfa Romeo Junior",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Alfa+Romeo+Junior&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Alfa+Romeo+Junior&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Alfa+Romeo+Junior&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Alfa+Romeo+Junior&tz=420"
                         },
                         {
                             "query": "alfa milano",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=alfa+milano&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=alfa+milano&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=alfa+milano&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=alfa+milano&tz=420"
                         },
                         {
                             "query": "alfa junior",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=alfa+junior&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=alfa+junior&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=alfa+junior&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=alfa+junior&tz=420"
                         }
                     ],
                     "articles": [
@@ -332,15 +428,15 @@
                             "link": "https://www.startmag.it/smartcity/alfa-romeo-milano-o-junior-ecco-cosa-dice-lagenzia-delle-dogane-e-dei-monopoli/",
                             "snippet": "Stellantis ha impiegato cinque giorni per decidere se cambiare o meno nome all'Alfa Romeo Milano e alla fine l'ha ribattezzata Junior: volontà di non ...",
                             "source": "Startmag Web magazine",
-                            "date": "18h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcR6GnmMoswJH0Pk8yVfkagROCFgP5Y6QgJdZUPjhQK8MIKTNCR-8lRY0G_G-_1NDRECQJoSaJs_"
                         },
                         {
                             "title": "Alfa Romeo Milano, Junior e dintorni: la guida degli “alfisti” è ...",
                             "link": "https://www.ilsole24ore.com/art/afa-romeo-milano-junior-e-dintorni-guida-alfisti-e-scomparsa-AFgVduZD",
-                            "snippet": "Si tratta pur sempre di un patrimonio nazionale a cui tanti italiani sono legatissimi, sebbene non al punto da comprarsi le macchine. Solo che le discussioni ...",
+                            "snippet": "Un'Alfa Romeo, se è lecito dirlo, non un SUV qualsiasi con lo stemma appiccicato sopra. Anni fa un brillante Silvio Berlusconi stuzzicò la Fiat, suggerendo di ...",
                             "source": "Il Sole 24 ORE",
-                            "date": "14h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcRNXZEWsZb2kTtGm5bIS1yse179rW3cgzrw6Zjte99XL83S3EhPdcwAy63ArrgFu5o7aOV6thS3"
                         },
                         {
@@ -348,14 +444,14 @@
                             "link": "https://www.sulpanaro.net/2024/04/alfa-romeo-milano-cambia-nome-si-chiamera-junior/",
                             "snippet": "(Adnkronos) - Alfa Romeo 'Milano' cambia nome, si chiamerà Alfa Romeo 'Junior'. Ad annunciarlo il ceo del brand, Jean-Philippe Imparato.",
                             "source": "SulPanaro",
-                            "date": "1d ago"
+                            "date": "1w ago"
                         },
                         {
                             "title": "Non solo Alfa Romeo Milano, le altre auto con nomi di città ma ...",
                             "link": "https://tg24.sky.it/economia/2024/04/16/alfa-romeo-milano-auto-citta-italiane",
                             "snippet": "Dopo la polemica col governo, che non ha apprezzato l'idea di chiamare come la città lombarda una macchina prodotta in Polonia, l'azienda ha deciso di ...",
                             "source": "Sky Tg24",
-                            "date": "23h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcQjst8nJF6GFT_mjj3eHJF19Wmdnhss5DILs0LqtUEQwdunpbhAkXJlagcVa8eIXp6H7jEHxamj"
                         },
                         {
@@ -363,7 +459,7 @@
                             "link": "https://www.wired.it/article/alfa-romeo-milano-junior-urso/",
                             "snippet": "L'azienda l'ha ribattezzata Junior dopo che il ministro Urso ha accusato la società di Italian sounding perché la produzione è in Polonia.",
                             "source": "Wired.it",
-                            "date": "21h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcS_Mwk1kN1xud4IedvqV_PstzEcE2XEogoMSbDOkhssFrfOTdy-QA7PWTQ158RtIGVNSLAQuvYp"
                         },
                         {
@@ -371,180 +467,76 @@
                             "link": "https://it.motor1.com/news/716248/alfa-romeo-junior-brutta-figura-italia/",
                             "snippet": "Una riflessione sui danni all'immane del sistema Italia che vanno ben al di là del mondo dell'automobile.",
                             "source": "Motor1 Italia",
-                            "date": "20h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcQ0d2dwYv_ELFH2vBOKv7cw1yKMrFytTnwENLiLDxlOF3FoZ3m2CX5YhNdrUgKEm2YNJiiI3_ou"
-                        },
-                        {
-                            "title": "L'Alfa Romeo Milano cambia nome in Junior",
-                            "link": "https://www.alvolante.it/news/alfa-romeo-milano-diventa-junior-394119",
-                            "snippet": "Una scelta fatta per evitare le polemiche dopo le recenti dichiarazioni del ministro del Made in Italy Adolfo Urso (qui la news) relative alla legge del 2003 ...",
-                            "source": "AlVolante",
-                            "date": "18h ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcRq81Vw8SPh95wnIYS9VphrmSxZRm-0GErrLN_amTzsQI0CTlgsgpzc3F7CULasvspZzFMxYpK1"
-                        }
-                    ]
-                },
-                {
-                    "query": "Nadal",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Nadal&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Nadal&tz=420",
-                    "traffic": 50000,
-                    "related_queries": [
-                        {
-                            "query": "Cobolli",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Cobolli&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Cobolli&tz=420"
-                        },
-                        {
-                            "query": "Rafael Nadal",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Rafael+Nadal&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Rafael+Nadal&tz=420"
-                        },
-                        {
-                            "query": "atp barcellona 2024",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=atp+barcellona+2024&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=atp+barcellona+2024&tz=420"
-                        },
-                        {
-                            "query": "flavio cobolli",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=flavio+cobolli&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=flavio+cobolli&tz=420"
-                        },
-                        {
-                            "query": "tennis barcellona",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=tennis+barcellona&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=tennis+barcellona&tz=420"
-                        },
-                        {
-                            "query": "nadal cobolli",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=nadal+cobolli&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=nadal+cobolli&tz=420"
-                        }
-                    ],
-                    "articles": [
-                        {
-                            "title": "Rientro vincente per Nadal: Cobolli ko in 2 set",
-                            "link": "https://sport.sky.it/tennis/2024/04/16/cobolli-nadal-atp-barcellona-risultato",
-                            "snippet": "Nadal torna sulla \"sua\" terra dopo 681 giorni e vince: lo spagnolo, che non giocava un match ufficiale da 103 giorni, batte Flavio Cobolli con il punteggio ...",
-                            "source": "Sky Sport",
-                            "date": "15h ago",
-                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcQvvJTQ_VO-hkmdptJbJDQ6JKwoFBp415BWX1-8xhUJpQ12NXuUnAFPbgQEMpUMh_0Ua4AtHsHZ"
-                        },
-                        {
-                            "title": "Atp Barcellona, Nadal torna e batte Cobolli al primo turno",
-                            "link": "https://www.sulpanaro.net/2024/04/atp-barcellona-nadal-torna-e-batte-cobolli-al-primo-turno/",
-                            "snippet": "(Adnkronos) - Rafa Nadal torna in campo e vince. Nel torneo Atp di Barcellona, il 37enne spagnolo si impone per 6-2, 6-3 in 1h25' sull'italiano Flavio ...",
-                            "source": "SulPanaro",
-                            "date": "15h ago",
-                            "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQeseaOZnxAO0Xgu0BbR8Zd5snbQP_KVomrgwP3xtX_R3qqERIIjRicg73BygexbhF7hqZuZWs"
-                        },
-                        {
-                            "title": "Nadal, ritorno vincente a Barcellona. Cobolli si inchina in due set",
-                            "link": "https://www.gazzetta.it/Tennis/ATP/16-04-2024/nadal-torna-a-barcellona-e-batte-cobolli.shtml",
-                            "snippet": "L'emozione, la partecipazione, e la vittoria. Rafa Nadal è tornato a giocare dopo 103 giorni e l'ha fatto a casa sua, al Reial Club de Tenis di Barcellona, ...",
-                            "source": "La Gazzetta dello Sport",
-                            "date": "13h ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcQfkPOCEyDXpvKGfVKwgVENZ1odY4hDdLqah4UmFVkO0WWkkp130rvYrtQ4Y2fs9R0z3me5otLh"
-                        },
-                        {
-                            "title": "Atp Barcellona, Nadal spazza via Cobolli in due set. Rivivi la diretta",
-                            "link": "https://www.corrieredellosport.it/news/tennis/2024/04/16-125946896/cobolli-nadal_diretta_atp_barcellona_segui_la_partita_live",
-                            "snippet": "L'azzurro perde al debutto sulla terra rossa catalana contro la leggenda spagnola, al rientro dopo il lungo stop per infortunio: cronaca e aggiornamenti.",
-                            "source": "Corriere dello Sport.it",
-                            "date": "14h ago",
-                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcTntGnKcgwk_JKBMi-EKLY7RZUsoU3NlqZQwSkQDPUdO5vXjjMnBxhPuTT2mOsxJdVYNHKvXcAh"
-                        },
-                        {
-                            "title": "Nadal torna e fa le fiamme, Cobolli ko. Arnaldi avanti a Barcellona",
-                            "link": "https://www.tuttosport.com/news/tennis/2024/04/16-125883381/nadal-cobolli_orario_diretta_e_dove_vedere_in_tv_il_tennis_live",
-                            "snippet": "BARCELLONA (Spagna) - Dopo 103 giorni Rafa Nadal torna in azione, lo fa nel \"suo\" torneo (vinto 12 volte) ovvero l'Atp 500 di Barcellona battendo al debutto ...",
-                            "source": "Tuttosport",
-                            "date": "13h ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcSAJxnJxl1Z8yYS7aRb-Ek5x5lZeMQE539BODP4et_inF8IyCD0VVi8YSX-PwF8N63AMI7xc80X"
-                        },
-                        {
-                            "title": "Nadal: “Ho giocato in maniera logica senza forzare. L'importante è ...",
-                            "link": "https://www.ubitennis.com/blog/2024/04/16/nadal-ho-giocato-in-maniera-logica-senza-forzare-limportante-e-continuare-a-giocare/",
-                            "snippet": "Tennis - ATP, Interviste | Buona la prima per Nadal, domani si vedrà se riuscirà ad alzare l'asticella; il maiorchino ammette che i dubbi permangono, ...",
-                            "source": "Ubi Tennis",
-                            "date": "13h ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcSIOA6lSFVb_5hXRV-Yv9mme64J4zMgd8NcoMkIho_t1P8WB9kvMyU-_-Eval8LhWfmhEnkbGqy"
-                        },
-                        {
-                            "title": "Nadal batte Cobolli all'Atp 500 Barcellona 6-2, 6-3",
-                            "link": "https://www.corriere.it/sport/tennis/24_aprile_16/nadal-cobolli-atp-500-barcellona-risultato-382a0966-fc05-11ee-bd7d-ba8cac63572b.shtml",
-                            "snippet": "Rafa Nadal torna in campo a Barcellona: al primo turno batte l'azzurro Cobolli in due set.",
-                            "source": "Corriere della Sera",
-                            "date": "15h ago",
-                            "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcSRAQmJES6X5Vyb3eY7N2Xpqs8DFwokFaDsnOBW-Xxy8iPdjyyIRaWRc1mL89fex7m0YIer-10E"
                         }
                     ]
                 },
                 {
                     "query": "Recupero Udinese-Roma",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Recupero+Udinese-Roma&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Recupero+Udinese-Roma&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Recupero+Udinese-Roma&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Recupero+Udinese-Roma&tz=420",
                     "traffic": 50000,
                     "related_queries": [
                         {
                             "query": "giocatore roma malore",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=giocatore+roma+malore&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=giocatore+roma+malore&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=giocatore+roma+malore&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=giocatore+roma+malore&tz=420"
                         },
                         {
                             "query": "udinese roma recupero",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=udinese+roma+recupero&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=udinese+roma+recupero&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=udinese+roma+recupero&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=udinese+roma+recupero&tz=420"
                         },
                         {
                             "query": "quando si recupera udinese roma",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=quando+si+recupera+udinese+roma&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=quando+si+recupera+udinese+roma&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=quando+si+recupera+udinese+roma&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=quando+si+recupera+udinese+roma&tz=420"
+                        },
+                        {
+                            "query": "pneumotorace",
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=pneumotorace&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=pneumotorace&tz=420"
                         },
                         {
                             "query": "calciatore roma malore",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=calciatore+roma+malore&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=calciatore+roma+malore&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=calciatore+roma+malore&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=calciatore+roma+malore&tz=420"
                         },
                         {
                             "query": "udinese roma quando si recupera",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=udinese+roma+quando+si+recupera&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=udinese+roma+quando+si+recupera&tz=420"
-                        },
-                        {
-                            "query": "condizioni ndicka",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=condizioni+ndicka&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=condizioni+ndicka&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=udinese+roma+quando+si+recupera&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=udinese+roma+quando+si+recupera&tz=420"
                         },
                         {
                             "query": "roma udinese sospesa",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=roma+udinese+sospesa&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=roma+udinese+sospesa&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=roma+udinese+sospesa&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=roma+udinese+sospesa&tz=420"
                         },
                         {
                             "query": "come sta il giocatore della roma",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=come+sta+il+giocatore+della+roma&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=come+sta+il+giocatore+della+roma&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=come+sta+il+giocatore+della+roma&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=come+sta+il+giocatore+della+roma&tz=420"
                         },
                         {
                             "query": "Udine",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Udine&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Udine&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Udine&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Udine&tz=420"
                         },
                         {
                             "query": "n dicka",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=n+dicka&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=n+dicka&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=n+dicka&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=n+dicka&tz=420"
                         },
                         {
                             "query": "calciatore roma",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=calciatore+roma&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=calciatore+roma&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=calciatore+roma&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=calciatore+roma&tz=420"
                         },
                         {
                             "query": "evan n'dicka",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=evan+n'dicka&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=evan+n%27dicka&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=evan+n'dicka&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=evan+n%27dicka&tz=420"
                         }
                     ],
                     "articles": [
@@ -553,7 +545,7 @@
                             "link": "https://sport.sky.it/calcio/serie-a/2024/04/16/udinese-roma-recupero-date",
                             "snippet": "Venerdì 19 la Lega Serie A ufficializzerà quando sarà recuperata la parte restate della partita fra Udinese-Roma (sospesa sull'1-1 al 73').",
                             "source": "Sky Sport",
-                            "date": "20h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcRLSPFzoQeLbY7Hdp0EGYulp1ahJdD6QBOmrfJ62EkqDG9FwTmdJXvTX7sUeb7MCa_D4l4p1E1z"
                         },
                         {
@@ -561,7 +553,7 @@
                             "link": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2024/04/14-125842718/recupero_udinese-roma_cosa_dice_il_regolamento_tutte_le_ipotesi",
                             "snippet": "Paura, tensione, preoccupazione e dubbi. Sono minuti concitati per la condizione del calciatore della Roma N'Dicka, accasciatosi sul terreno di gioco di ...",
                             "source": "Corriere dello Sport.it",
-                            "date": "23h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcSRxzNKJwnVYxchd2scJpHA7anSQijLTA62876GSKN0cx8t5MrHTNW5cfxmp1q19NPR7SiZ_41WTw"
                         },
                         {
@@ -569,7 +561,7 @@
                             "link": "https://www.gazzetta.it/Calcio/Serie-A/Roma/15-04-2024/recupero-udinese-roma-ipotesi-di-giiocare-giovedi-25-aprile.shtml",
                             "snippet": "A livello di regolamento e per garantire la massima regolarità della competizione, i 20 minuti (scarsi) della gara di ieri pomeriggio sono da recuperare il ...",
                             "source": "La Gazzetta dello Sport",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcQ-6cZvcv4Sr1RMAzXjx1vhDltZI35uRVyV7spz5Vk7Kdwi84pGUNqodM13eDvz7GNTvzw1jOiF"
                         },
                         {
@@ -577,7 +569,7 @@
                             "link": "https://www.goal.com/it/liste/malore-ndicka-udinese-roma-si-rigioca-inizio-o-si-recupera-dal-72-cosa-dice-regolamento/bltf3aa081d4e66920b",
                             "snippet": "Come funziona con il recupero della gara tra Udinese e Roma: lo spiega l'articolo 30 dello Statuto-Regolamento della Lega Serie A.",
                             "source": "Goal.com",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcSaae0561LQIIRfaI50BdZ5J1LDaVE4CoSK6uRujLpPVaJrBNgFs0U1aI5k9n53DdsHm_4BRILtOg"
                         },
                         {
@@ -585,7 +577,7 @@
                             "link": "https://www.fantamaster.it/udinese-roma-recupero-data-seriea-fantacalcio/",
                             "snippet": "Recupero di Udinese-Roma - Dopo il sospiro di sollievo per le condizioni di Evan Ndicka, Udinese e Roma restano in attesa...",
                             "source": "FantaMaster",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcSs3C-jQcFEaMVIO9TzjnIpPNCzFX8ZBqYy3xsAYtbx2q3lKfhjKNd1T7cf3YaKpeGfEcqIXkkt"
                         },
                         {
@@ -593,7 +585,7 @@
                             "link": "https://www.sulpanaro.net/2024/04/udinese-roma-sospesa-le-ipotesi-per-il-recupero-della-sfida/",
                             "snippet": "(Adnkronos) - La partita tra Udinese e Roma, valida per la 32esima giornata di Serie A, sospesa al 71', quando verrà recuperata?",
                             "source": "SulPanaro",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcSF4acdxVQ7oR8Utij4MTrqo1s-QVnMwXNI-TLBHSvgIqrHEfGYG1wPR6VgTpDxb91ntWwh4Ckz"
                         },
                         {
@@ -601,26 +593,26 @@
                             "link": "https://sport.virgilio.it/udinese-roma-dopo-caso-ndicka-ecco-quando-si-puo-recuperare-e-chi-puo-giocare-il-regolamento-858846",
                             "snippet": "E' il minuto 72′ quando in Udinese-Roma il difensore giallorosso Ndicka si accascia a terra e viene portato fuori dal campo in barella dai soccorsi chiamati ...",
                             "source": "Virgilio Sport",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcRnA7NGLUqBnXJOouSK_Nlpd8e39c6wN5CQRCBvDylR97l6bX5WdQn6gnkrjep3yv9_S16IKYeX"
                         }
                     ]
                 },
                 {
                     "query": "Mattia Giani",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Mattia+Giani&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Mattia+Giani&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Mattia+Giani&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Mattia+Giani&tz=420",
                     "traffic": 50000,
                     "related_queries": [
                         {
                             "query": "calciatore morto oggi",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=calciatore+morto+oggi&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=calciatore+morto+oggi&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=calciatore+morto+oggi&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=calciatore+morto+oggi&tz=420"
                         },
                         {
                             "query": "calciatore morto",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=calciatore+morto&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=calciatore+morto&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=calciatore+morto&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=calciatore+morto&tz=420"
                         }
                     ],
                     "articles": [
@@ -629,7 +621,7 @@
                             "link": "https://www.ilmessaggero.it/persone/mattia_giani_morto_fidanzata_sofia_caruso_cosa_ha_detto-8060803.html",
                             "snippet": "Il giovane calciatore è stato stroncato da un malore all'età di 26 anni mentre giocava una partita con il Castelfiorentino United.",
                             "source": "Il Messaggero",
-                            "date": "13h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcRCTiEo_MzG9jKllEDLA_0jPpmz7MMtJzFfVtWTHoVlCJOWV5KWGsjGYujjsjpN2VDrX6fQ-_UM"
                         },
                         {
@@ -637,7 +629,7 @@
                             "link": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2024/04/15-125880444/roma_anche_mancini_ricorda_mattia_giani_il_legame_familiare_che_li_univa",
                             "snippet": "Il difensore giallorosso ha condiviso su Instagram una fotoricordo per il giocatore morto dopo un attacco cardiaco in campo. I due si conoscevano bene e ...",
                             "source": "Corriere dello Sport.it",
-                            "date": "3h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcRWywNcgDNQH-TqFLrwCJr6E7k4lNW3RrBGyblcTBcGUPxtIEEjJ60sSIbU3iKxSDOMIzLhFSGP"
                         },
                         {
@@ -645,7 +637,7 @@
                             "link": "https://tg24.sky.it/cronaca/2024/04/16/mattia-giani-morte-padre-accuse",
                             "snippet": "Leggi su Sky TG24 l'articolo Morte Mattia Giani, il padre: 'Non c'era un medico, il defibrillatore non è stato usato'",
                             "source": "Sky Tg24",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcRdNpK9EWzBXB1YFg6n_-2cU8sdsaiSOAqeJ4SWmlWTDdDdBcM-6YjJsP2zlQzSk2VvIghyoo-M"
                         },
                         {
@@ -653,7 +645,7 @@
                             "link": "https://www.lanazione.it/cronaca/mattia-giani-padre-bq95g0q2",
                             "snippet": "Firenze, 16 aprile 2024 – Vuole la verità Sandro Giani, padre di Mattia, il calciatore del Castelfiorentino di 26 anni morto ieri all'ospedale di Careggi ...",
                             "source": "La Nazione",
-                            "date": "17h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcSKt_2ZlH-blDPX6PwCyviQwrwSecolUPVGAjvzS0RyBPJNWcOkki4aoQzdnGEhjG5AKYZUA9ZT"
                         },
                         {
@@ -661,15 +653,15 @@
                             "link": "https://corrierefiorentino.corriere.it/notizie/cronaca/24_aprile_16/mattia-giani-il-calciatore-morto-come-morosini-il-papa-in-campo-non-c-era-il-medico-4a8a339b-6621-4f38-95c2-939567f6exlk.shtml",
                             "snippet": "Il calciatore è morto dopo un arresto cardiaco in campo a Castelfiorentino. Polemica sui soccorsi. Il defibrillatore non è stato usato.",
                             "source": "Corriere Fiorentino",
-                            "date": "19h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcR__Rh7Iyowdc4ORdhnc87wqiE409dEJEteQORPyMq77J5kTGdtvwZ6kzwn819YXxrb3xZsYKBQ"
                         },
                         {
                             "title": "Il caso. Mattia, 26 anni, morto sul campo da calcio. Perché è ...",
                             "link": "https://www.avvenire.it/agora/pagine/e-morto-il-giovane-calciatore-mattia-giani",
-                            "snippet": "L'attaccante del Castelfiorentino United ha avuto un malore durante una partita in Eccellenza. Lo strazio della famiglia, le polemiche su ambulanza e ...",
+                            "snippet": "Si può morire per una partita di pallone? Purtroppo sì. La vittima della domenica si chiamava Matteo Giani, 26 anni, attaccante che con il suo Castelfiorentino ...",
                             "source": "Avvenire.it",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcSV5SEI3l-17NLlwQE4_-9p0BC91maHrl6gig6AjtGgd_XJKShpwccNCt34W_8WeT_V0Rljy9eH"
                         },
                         {
@@ -677,46 +669,46 @@
                             "link": "https://www.iltirreno.it/toscana/2024/04/16/news/mattia-giani-sofia-caruso-1.100507269",
                             "snippet": "Intanto c'è la richiesta di fermare il campionato di Eccellenza almeno per una settimana. Il Lanciotto comunica il silenzio stampa.",
                             "source": "Il Tirreno",
-                            "date": "16h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcSDzDpSOib7H32xTgpQlrZeu1eAblAcQjx9brzsjiGhG12j6DKfR73CLC8JTrjWvvf-fIQB1ZjU"
                         }
                     ]
                 },
                 {
                     "query": "Richard Jewell",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Richard+Jewell&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Richard+Jewell&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Richard+Jewell&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Richard+Jewell&tz=420",
                     "traffic": 50000,
                     "related_queries": [
                         {
                             "query": "Clint Eastwood",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Clint+Eastwood&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Clint+Eastwood&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Clint+Eastwood&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Clint+Eastwood&tz=420"
                         }
                     ],
                     "articles": [
-                        {
-                            "title": "Richard Jewell, la storia vera dietro al film di Clint Eastwood",
-                            "link": "https://www.ciakclub.it/richard-jewell-la-storia-vera-dietro-al-film-di-clint-eastwood/",
-                            "snippet": "Richard Jewell, diretto da Clint Eastwood e in onda stasera racconta la storia di un guardiano di sicurezza diventato eroe durante le Olimpiadi del 1996 a ...",
-                            "source": "CiakClub",
-                            "date": "1d ago",
-                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcTl2v6fFCmW-YoEmAGqTrT9nQfS0ondkTTH3tIOz67BFqlxLWsfPakPAaAKHXPO192V_7axGEcP"
-                        },
                         {
                             "title": "Richard Jewell: la storia vera dietro il film di Clint Eastwood",
                             "link": "https://www.cinefilos.it/tutto-film/approfondimenti/richard-jewell-trama-cast-storia-vera-streaming-618383",
                             "snippet": "Un approfondimento sul film Richard Jewell, diretto da Clint Eastwood, con dettagli sulla trama, il cast e la storia vera.",
                             "source": "Cinefilos.it",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcT1wFru6uQ0nH-jWl5EyvWnXChVPARbiKjPnTKWP28AJ08mWDy3timTS3HiowSOlz7DdG7wIfV0"
+                        },
+                        {
+                            "title": "Richard Jewell, la storia vera dietro al film di Clint Eastwood",
+                            "link": "https://www.ciakclub.it/richard-jewell-la-storia-vera-dietro-al-film-di-clint-eastwood/",
+                            "snippet": "Richard Jewell, diretto da Clint Eastwood e in onda stasera racconta la storia di un guardiano di sicurezza diventato eroe durante le Olimpiadi del 1996 a ...",
+                            "source": "CiakClub",
+                            "date": "1w ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcTl2v6fFCmW-YoEmAGqTrT9nQfS0ondkTTH3tIOz67BFqlxLWsfPakPAaAKHXPO192V_7axGEcP"
                         },
                         {
                             "title": "Il film biografico stasera in TV: “Richard Jewell” lunedì 15 aprile 2024",
                             "link": "https://www.la-notizia.net/2024/04/15/il-film-biografico-stasera-in-tv-richard-jewell-lunedi-15-aprile-2024/",
                             "snippet": "Richard Jewell è un film del 2019 diretto da Clint Eastwood, basato sulla storia della guardia di sicurezza Richard Jewell.",
                             "source": "la-notizia.net",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcSW2j0Bs-0lSvFudwdhvDHG4muRyI0YaeMg0-I-eFsGkx8A13OUf5YASoZUigRsYxegLAEvF9ur"
                         },
                         {
@@ -724,31 +716,154 @@
                             "link": "https://www.controcopertina.com/2024/come-finisce-richard-jewell-storia-vera-trama-e-finale-220394",
                             "snippet": "Scopriamo insieme trama, verità storica, cast e finale di questa opera cinematografica. Il film “Richard Jewell”, diretto dal celebre Clint Eastwood e ...",
                             "source": "ControCopertina",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcSLUvYCTO8QSnJ-Q8wbO5hsbxH0M-xHXSo0hn3AP_YNmhV_qEmeRDTeZOIh_zBMiYueNDn-nrtW"
                         }
                     ]
                 },
                 {
+                    "query": "Francesco Benigno",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Francesco+Benigno&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Francesco+Benigno&tz=420",
+                    "traffic": 20000,
+                    "articles": [
+                        {
+                            "title": "Isola dei Famosi, scatta la lite tra Peppe Di Napoli e Francesco ...",
+                            "link": "https://www.ilfattoquotidiano.it/2024/04/16/isola-dei-famosi-scatta-la-lite-tra-peppe-di-napoli-e-francesco-benigno-fallito-si-deve-svegliare-anche-luxuria-nel-mirino-delle-critiche/7515164/",
+                            "snippet": "Volano parole grosse all'Isola dei Famosi tra Francesco Benigno e Peppe Di Napoli. Durante l'ultima puntata, trasmessa lunedì 15 aprile su Canale 5, ...",
+                            "source": "Il Fatto Quotidiano",
+                            "date": "1w ago",
+                            "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQ5pMHZlBd276N_e97rvaHMPsWxnqPmEWoCvHX1Z2MnDlxFnHisv095HnZ-vrowvYuJZPxx125x"
+                        },
+                        {
+                            "title": "Lite all'Isola 2024 tra Peppe Di Napoli e Francesco Benigno: “Sei un ...",
+                            "link": "https://www.fanpage.it/spettacolo/programmi-tv/lite-allisola-2024-tra-peppe-di-napoli-e-francesco-benigno-sei-un-fallito-poi-lo-scontro-con-luxuria/",
+                            "snippet": "Scontro tra Peppe Di Napoli e Francesco Benigno all'Isola dei famosi 2024 durante la puntata in onda il 15 aprile.",
+                            "source": "Napoli Fanpage",
+                            "date": "1w ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcRKoRb0sgnP82bkN40Nq3A7DDsgId8Db3BJT0vaFvx3ALtvir9EJBEOX16VF2iUC8zI0JfdBJVs"
+                        },
+                        {
+                            "title": "Isola dei Famosi 2024, Francesco Benigno litiga con Peppe Di ...",
+                            "link": "https://movieplayer.it/news/isola-dei-famosi-2024-francesco-benigno-peppe-di-napoli-vladimir-clip_140807/",
+                            "snippet": "L'attore siciliano dopo aver litigato con un concorrente ha contestato le clip mandate in onda dalla produzione.",
+                            "source": "Movieplayer.it",
+                            "date": "1w ago",
+                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcQLIZ5Oo3m5fxFgGSLatZnuAxgFNkfuYubIxWQlfIPRR9TUAgjBgH8M4Z17-gfT2UbI8O3Qx_te"
+                        },
+                        {
+                            "title": "Isola dei Famosi, Peppe Di Napoli litiga con Francesco Benigno ...",
+                            "link": "https://www.napolitoday.it/attualita/peppe-di-napoli-francesco-benigno-isola-dei-famosi.html",
+                            "snippet": "Il pescivendolo star di TikTok si è scontrato con l'attore siciliano per alcune divergenze. I naufraghi - quasi tutti - si sono schiarati con Di Napoli che ...",
+                            "source": "NapoliToday",
+                            "date": "1w ago",
+                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcSJRmVk-9WgxvQlok3ccHlnOsKvHGsKfK0B5r-MMJILn2mGGmooGfi8u-3YKz8K2AVf-0tsPW4J"
+                        },
+                        {
+                            "title": "Francesco Benigno, rissa sfiorata con Peppe Di Napoli all'Isola dei ...",
+                            "link": "https://www.ilsussidiario.net/news/francesco-benigno-rissa-sfiorata-con-peppe-di-napoli-allisola-dei-famosi-2024-fallito-non-sei-nessuno/2691291/",
+                            "snippet": "Peppe Di Napoli e Francesco Benigno, la lite sfocia quasi in rissa all'Isola dei Famosi 2024: \"Sei un fallito nella vita, non sei nessuno\"",
+                            "source": "Il Sussidiario.net",
+                            "date": "1w ago",
+                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcRQ-6Exe3DhIi6s3pWJrVoVwoAl17Srg4TIm7-YURf_GI9hPlcpm2k7kQMtHj5SfAH3ViJMc69a"
+                        },
+                        {
+                            "title": "Isola 18, Maité Yanes perde la pazienza con Francesco Benigno ...",
+                            "link": "https://www.isaechia.it/isola-18-maite-yanes-francesco-benigno-sopporto-litigare/",
+                            "snippet": "Come mostrato nell'odierno appuntamento con il daytime de L'Isola dei Famosi, Francesco Benigno ha discusso con due naufraghi.",
+                            "source": "Isa e Chia",
+                            "date": "1w ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcQsV0TAHo9BxkkeUqUagzuRg8guTer9HO4nfUxIhKIqR8FXZ22ylC0sZSGuPph9IeUcIJgoxngl"
+                        },
+                        {
+                            "title": "Francesco Benigno contro l'Isola: «Clip ad hoc contro di me ...",
+                            "link": "https://www.leggo.it/gossip/isola_dei_famosi/francesco_benigno_contro_isola_clip_contro_di_me_luxuria_lo_zittisce_peppe_insulto_fallito_oggi_15_4_2024-8058841.html",
+                            "snippet": "L'attore si scaglia contro il programma accusando gli autori delle clip di avere dei pregiudizi su di lui.",
+                            "source": "Leggo.it",
+                            "date": "1w ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcQsGZWjrCgjeEajqYuyOk_-RZRvLs4PFW8b2gKWkGP14V1Hl0ECWEzV-ZgPyX2JDwzczyF1TTMG"
+                        }
+                    ]
+                },
+                {
+                    "query": "Patty Pravo",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Patty+Pravo&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Patty+Pravo&tz=420",
+                    "traffic": 20000,
+                    "articles": [
+                        {
+                            "title": "Patty Pravo parla dell'addio di Riccardo Fogli ai Pooh: «Non c'entro ...",
+                            "link": "https://www.corriere.it/spettacoli/24_aprile_15/patty-pravo-parla-dell-addio-di-riccardo-fogli-ai-pooh-non-c-entro-niente-con-la-sua-uscita-dal-gruppo-lui-voleva-essere-un-solista-151de81d-3a5e-454b-b132-fd2c7285fxlk.shtml",
+                            "snippet": "Ospite di Silvia Toffanin a \"Verissimo\", la cantante ha voluto chiarire una volta per tutte la questione dell'abbandono del bassista alla vecchia band, ...",
+                            "source": "Corriere della Sera",
+                            "date": "1w ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcTFJq-j35LatCqfPuQy8kKvZq4fEjTJJdXsh3oH1oIhGysnBBeoel4VdRa0S4SNAB9RJ-cYdwMm"
+                        },
+                        {
+                            "title": "Patty Pravo: «Non ho un compagno, ma va bene così»",
+                            "link": "https://www.vanityfair.it/article/patty-pravo-non-ho-un-compagno-ma-va-bene-cosi",
+                            "snippet": "A Verissimo la cantante racconta della madre Bruna, dei cinque matrimoni, della rottura dei Pooh («non fui io a dire a Fogli di uscire dal gruppo»), ...",
+                            "source": "Vanity Fair.it",
+                            "date": "1w ago",
+                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcRGr-A3z5z3nIrwEa5gMj0k4ABVEtLyfZsyxCPTBcQTht1Jma6x0J4e4Cstw89lm0nB3oCDlI7W"
+                        },
+                        {
+                            "title": "Patty Pravo al veleno sulla rottura di Riccardo Fogli con i Pooh: \"Ecc...",
+                            "link": "https://www.oggi.it/people/vip-e-star/2024/04/15/patty-pravo-al-veleno-sulla-rottura-di-riccardo-fogli-con-i-pooh-ecco-come-ando/",
+                            "snippet": "La cantante di Pensiero stupendo racconta la sua versione dei fatti. Che tengono banco ancora oggi dopo decenni.",
+                            "source": "Oggi",
+                            "date": "1w ago",
+                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcTMxk0L6j-59_sYlXo8tCTYNgFEiamP7uSSytk4o-PurbMNkMBq1dprQVT44dNIOyfWAdl6hjYy"
+                        },
+                        {
+                            "title": "Patty Pravo: “Sto bene da sola. Con Fogli finì perché non sono una ...",
+                            "link": "https://luce.lanazione.it/spettacolo/patty-pravo-sola-riccardo-fogli-dsbr65lm",
+                            "snippet": "La cantante a Verissimo parla del suo passato, dei matrimoni e della storia con l'ex bassista dei Pooh di cui nega la responsabilità dell'addio al gruppo.",
+                            "source": "Luce!",
+                            "date": "1w ago",
+                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcQS34FIRaT86G3UhwIKKL6Xq1bkuWkqrdGrawFRIygVYcAu1sQ43aDSK1LQpiN9Og7NnWIYFz_r"
+                        },
+                        {
+                            "title": "Patty Pravo: “Perché è finito il mio matrimonio con Riccardo Fogli”",
+                            "link": "https://www.105.net/news/music-biz/1367151/patty-pravo-rivela-perche-e-finita-con-riccardo-fogli.html",
+                            "snippet": "La cantante si è raccontata nel salotto di Silvia Toffanin, tra la passione per la musica e i tanti matrimoni, in particolare quello con il membro dei Pooh ...",
+                            "source": "105.net",
+                            "date": "1w ago",
+                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcSgIDOTfN3L6METiZPkIUaKzUc8Bu3v4EwLSf6g8DjBT11IhBTYg0itidMbVUTLhg3m-LqGMBAA"
+                        },
+                        {
+                            "title": "“Perché è finito il mio matrimonio con Riccardo Fogli?”, Patty Pravo ...",
+                            "link": "https://www.ilfattoquotidiano.it/2024/04/15/perche-e-finito-il-mio-matrimonio-con-riccardo-fogli-patty-pravo-confessa-a-verissimo/7513902/",
+                            "snippet": "A Verissimo Silvia Toffanin ha ospitato la cantante Patty Pravo nella puntata del 14 aprile. L'artista si è raccontata a 360 gradi, parlando della sua ...",
+                            "source": "Il Fatto Quotidiano",
+                            "date": "1w ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcS6XRXq0-w1bMb3D6hN43u05hGv2akBQslH2bum5CZnDy-iK8gjEn1ni-5TkCbcBqt7aiVUkHAF"
+                        },
+                        {
+                            "title": "Patty Pravo: “Con Riccardo Fogli non sono stata fedele. Perchè ha ...",
+                            "link": "https://www.dire.it/15-04-2024/1030440-patty-pravo-riccardo-fogli-pooh/",
+                            "snippet": "I matrimoni, i grandi amore e l'inizio della passione per il pianoforte a tre anni appena: Patty Pravo a 76 anni si è raccontata nell'intervista a ...",
+                            "source": "Dire",
+                            "date": "1w ago",
+                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcQvCdeypSF8SODUljQ22k_2KumjwakH3m8BQcNM5mWVwrfaJxVxkiHquRFtPYkzWtK-SwTnyvPX"
+                        }
+                    ]
+                },
+                {
                     "query": "Chelsea-Everton",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Chelsea-Everton&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Chelsea-Everton&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Chelsea-Everton&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Chelsea-Everton&tz=420",
                     "traffic": 20000,
                     "related_queries": [
                         {
                             "query": "Chelsea",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Chelsea&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Chelsea&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Chelsea&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Chelsea&tz=420"
                         },
                         {
                             "query": "chelsea everton",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=chelsea+everton&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=chelsea+everton&tz=420"
-                        },
-                        {
-                            "query": "Palmer",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Palmer&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Palmer&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=chelsea+everton&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=chelsea+everton&tz=420"
                         }
                     ],
                     "articles": [
@@ -757,31 +872,23 @@
                             "link": "https://www.mediagol.it/altri-campionati/premier-league/chelsea-everton-probabili-formazioni-pochettino-con-jackson-calvert-lewin-dal-1/",
                             "snippet": "La sfida che chiuderà la trentatreesima giornata di Premier League è in programma alle ore 21:00 a Stamford Bridge.",
                             "source": "Mediagol.it",
-                            "date": "1d ago",
-                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcTh5MwZmWWUhHVXft4IBs49ylUscGyNECWY_-Q3a3ObictG8EDwTjGjf4OwbeiBfUa_g4Tz46iE"
-                        },
-                        {
-                            "title": "Chelsea: Madueke, Palmer e Jackson litigano per un rigore. La ...",
-                            "link": "https://sport.sky.it/calcio/premier-league/2024/04/16/chelsea-madueke-palmer-jackson-rigore-conteso-video",
-                            "snippet": "Leggi su Sky Sport l'articolo Chelsea: Madueke, Palmer e Jackson litigano per un rigore. La rabbia di Pochettino. VIDEO.",
-                            "source": "Sky Sport",
-                            "date": "21h ago",
-                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcTYgzDqY6yFf8XTeUlgWKG90RVnSSMYzEE-XZ6UbIBb7qwWEsxTqMgnuiYikKRpDCge-6oZKk0n"
+                            "date": "1w ago",
+                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcR41enEyBG030gFzzKCjFsU-lSSezsQH6ny8EnOJ3H19mqNOlXCfm1LzdeqA_CX_aoOsH-SajzN"
                         },
                         {
                             "title": "Chelsea show, 6-0 all'Everton: poker di Palmer!",
                             "link": "https://www.corrieredellosport.it/news/calcio/calcio-estero/premier-league/2024/04/15-125915993/chelsea_show_6-0_all_everton_poker_di_palmer_",
                             "snippet": "LONDRA (INGHILTERRA) - La 33ª giornata di Premier League si chiude nel segno di Cole Palmer, che illumina Stamford Bridge. Il giovane talento inglese segna ...",
                             "source": "Corriere dello Sport.it",
-                            "date": "1d ago",
-                            "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcSs15wB4YrrEN7vKGPsRcmxX_B_RiLhZiNfqJvGPOFrAK1iWKxkmRN6pRjrDgCQSgeho9B3iRFm"
+                            "date": "1w ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcQ9zhjq8b0LFk2azpzfD6Q7OwpcoUkDQgQXQ9iHiQ2mw3V_RfNq1JJ67kTscHS383wmNtpj362i"
                         },
                         {
                             "title": "Premier, il Chelsea gioca a tennis con l'Everton: 6-0, 4 gol del ...",
                             "link": "https://www.tuttomercatoweb.com/calcio-estero/premier-il-chelsea-gioca-a-tennis-con-l-everton-6-0-4-gol-del-fenomeno-palmer-1957657",
-                            "snippet": "Finalmente un super Chelsea. Nel posticipo della 33^ giornata di Premier League, i Blues hanno battuto nettamente con il risultato di 6-0 l'Everton.",
+                            "snippet": "Finalmente un super Chelsea. Nel posticipo della 33^ giornata di Premier League, i Blues hanno battuto nettamente con il risultato di 6-0 l'Everton e hanno accorciato in classifica, pur rimanendo ancora in nona posizione.",
                             "source": "TUTTO mercato WEB",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQdnEgXRCU_bzG375mavOTsUfaE34W9FQmAhCDz0fteKh-F1hESszDXOquV_qfzf8GIgdP66sE9"
                         },
                         {
@@ -789,7 +896,7 @@
                             "link": "https://www.sportmediaset.mediaset.it/calcio/calcioestero/premier-league-palmer-annienta-leverton-chelsea-a--3-dalla-zona-europa_80750207-202402k.shtml",
                             "snippet": "I Blues si regalano un 6-0 nel posticipo a Stamford Bridge: Toffees cancellati da Palmer (poker) e da Jackson e Gilchrist. Il sesto posto dista solo...",
                             "source": "Sport Mediaset",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcRxQU48ZsD0HHQKYnm2dyYL1vdc5bkqDzL6_QnunMyYeASJW4VGa3WFn3GaJrekwfEHW3gESscE"
                         },
                         {
@@ -797,7 +904,7 @@
                             "link": "https://www.tuttosport.com/news/calcio/calcio-estero/premier-league/2024/04/15-125914056/palmer_scatenato_il_chelsea_stende_l_everton_pochettino_in_corsa_per_l_europa",
                             "snippet": "I Blues si sono imposti nettamente in casa con il risultato finale di 6-0: il classe 2002 raggiunge Haaland.",
                             "source": "Tuttosport",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQMxqscqckhBkAff88XOLZACwz_1PykJMukKSepUDN68xxQ9N9d-6-EOsRfuNOZP7HZqIqKSkGp"
                         },
                         {
@@ -805,110 +912,46 @@
                             "link": "https://www.ilveggente.it/2024/04/15/chelsea-everton-premier-league-probabili-formazioni-pronostici-dyche/",
                             "snippet": "Chelsea-Everton è una partita della 33esima giornata di Premier League e si gioca lunedì alle 21:00: tv, probabili formazioni, pronostici.",
                             "source": "Il Veggente News",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQaejgdkpJgO94_8n-RK-_8s40sMCROypbES35FUbGVanJ779JNRWyE5fiz3XT2w2HwfFIsXefy"
-                        }
-                    ]
-                },
-                {
-                    "query": "Patty Pravo",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Patty+Pravo&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Patty+Pravo&tz=420",
-                    "traffic": 20000,
-                    "articles": [
-                        {
-                            "title": "Patty Pravo parla dell'addio di Riccardo Fogli ai Pooh: «Non c'entro ...",
-                            "link": "https://www.corriere.it/spettacoli/24_aprile_15/patty-pravo-parla-dell-addio-di-riccardo-fogli-ai-pooh-non-c-entro-niente-con-la-sua-uscita-dal-gruppo-lui-voleva-essere-un-solista-151de81d-3a5e-454b-b132-fd2c7285fxlk.shtml",
-                            "snippet": "Ospite di Silvia Toffanin a \"Verissimo\", la cantante ha voluto chiarire una volta per tutte la questione dell'abbandono del bassista alla vecchia band, ...",
-                            "source": "Corriere della Sera",
-                            "date": "1d ago",
-                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcTFJq-j35LatCqfPuQy8kKvZq4fEjTJJdXsh3oH1oIhGysnBBeoel4VdRa0S4SNAB9RJ-cYdwMm"
                         },
                         {
-                            "title": "Patty Pravo: «Non ho un compagno, ma va bene così»",
-                            "link": "https://www.vanityfair.it/article/patty-pravo-non-ho-un-compagno-ma-va-bene-cosi",
-                            "snippet": "A Verissimo la cantante racconta della madre Bruna, dei cinque matrimoni, della rottura dei Pooh («non fui io a dire a Fogli di uscire dal gruppo»), ...",
-                            "source": "Vanity Fair.it",
-                            "date": "2d ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcRGr-A3z5z3nIrwEa5gMj0k4ABVEtLyfZsyxCPTBcQTht1Jma6x0J4e4Cstw89lm0nB3oCDlI7W"
-                        },
-                        {
-                            "title": "Patty Pravo al veleno sulla rottura di Riccardo Fogli con i Pooh: \"Ecc...",
-                            "link": "https://www.oggi.it/people/vip-e-star/2024/04/15/patty-pravo-al-veleno-sulla-rottura-di-riccardo-fogli-con-i-pooh-ecco-come-ando/",
-                            "snippet": "La cantante di Pensiero stupendo racconta la sua versione dei fatti. Che tengono banco ancora oggi dopo decenni.",
-                            "source": "Oggi",
-                            "date": "1d ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcTMxk0L6j-59_sYlXo8tCTYNgFEiamP7uSSytk4o-PurbMNkMBq1dprQVT44dNIOyfWAdl6hjYy"
-                        },
-                        {
-                            "title": "Patty Pravo: “Sto bene da sola. Con Fogli finì perché non sono una ...",
-                            "link": "https://luce.lanazione.it/spettacolo/patty-pravo-sola-riccardo-fogli-dsbr65lm",
-                            "snippet": "La cantante a Verissimo parla del suo passato, dei matrimoni e della storia con l'ex bassista dei Pooh di cui nega la responsabilità dell'addio al gruppo.",
-                            "source": "Luce!",
-                            "date": "1d ago",
-                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcQS34FIRaT86G3UhwIKKL6Xq1bkuWkqrdGrawFRIygVYcAu1sQ43aDSK1LQpiN9Og7NnWIYFz_r"
-                        },
-                        {
-                            "title": "Patty Pravo: “Perché è finito il mio matrimonio con Riccardo Fogli”",
-                            "link": "https://www.105.net/news/music-biz/1367151/patty-pravo-rivela-perche-e-finita-con-riccardo-fogli.html",
-                            "snippet": "La cantante si è raccontata nel salotto di Silvia Toffanin, tra la passione per la musica e i tanti matrimoni, in particolare quello con il membro dei Pooh ...",
-                            "source": "105.net",
-                            "date": "2d ago",
-                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcSgIDOTfN3L6METiZPkIUaKzUc8Bu3v4EwLSf6g8DjBT11IhBTYg0itidMbVUTLhg3m-LqGMBAA"
-                        },
-                        {
-                            "title": "“Perché è finito il mio matrimonio con Riccardo Fogli?”, Patty Pravo ...",
-                            "link": "https://www.ilfattoquotidiano.it/2024/04/15/perche-e-finito-il-mio-matrimonio-con-riccardo-fogli-patty-pravo-confessa-a-verissimo/7513902/",
-                            "snippet": "A Verissimo Silvia Toffanin ha ospitato la cantante Patty Pravo nella puntata del 14 aprile. L'artista si è raccontata a 360 gradi, parlando della sua ...",
-                            "source": "Il Fatto Quotidiano",
-                            "date": "1d ago",
-                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcS6XRXq0-w1bMb3D6hN43u05hGv2akBQslH2bum5CZnDy-iK8gjEn1ni-5TkCbcBqt7aiVUkHAF"
-                        },
-                        {
-                            "title": "Patty Pravo: “Con Riccardo Fogli non sono stata fedele. Perchè ha ...",
-                            "link": "https://www.dire.it/15-04-2024/1030440-patty-pravo-riccardo-fogli-pooh/",
-                            "snippet": "I matrimoni, i grandi amore e l'inizio della passione per il pianoforte a tre anni appena: Patty Pravo a 76 anni si è raccontata nell'intervista a ...",
-                            "source": "Dire",
-                            "date": "1d ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcQvCdeypSF8SODUljQ22k_2KumjwakH3m8BQcNM5mWVwrfaJxVxkiHquRFtPYkzWtK-SwTnyvPX"
+                            "title": "Chelsea-Everton, Cole Palmer straordinario: gol pazzesco (VIDEO)",
+                            "link": "https://www.sportface.it/video-e-podcast/chelsea-everton-cole-palmer-straordinario-gol-pazzesco-video/2518645",
+                            "snippet": "Benvenuti al Cole Palmer show. Nel corso del primo tempo di Chelsea-Everton, match valevole per la trentatreesima giornata della Premier League 2023/2024, ...",
+                            "source": "Sportface.it",
+                            "date": "1w ago",
+                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcRuNaBdC_e-GoqVPBofKaHdn3YEpXDWUentSnsZNh5oXDWRsHFLMrHpAcUkDRqWV-EhajyrcXwB"
                         }
                     ]
                 },
                 {
                     "query": "Fiorentina",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Fiorentina&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Fiorentina&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Fiorentina&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Fiorentina&tz=420",
                     "traffic": 20000,
                     "articles": [
-                        {
-                            "title": "Furia Ranieri durante Fiorentina-Genoa: la frase urlata al quarto uomo",
-                            "link": "https://www.corrieredellosport.it/news/calcio/serie-a/fiorentina/2024/04/15-125909234/furia_ranieri_durante_fiorentina-genoa_la_frase_urlata_al_quarto_uomo",
-                            "snippet": "Finale nervoso al Franchi, con il difensore viola che si è scagliato contro il direttore di gara e il suo assistente: ecco che cosa è successo.",
-                            "source": "Corriere dello Sport.it",
-                            "date": "2h ago",
-                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcRdpDuTk-5komwNBFlSCEoelJVk4yPx7XNuYr1cxvOQfFIR5yzczuFyWcNIO4P5GLsQKdLak46p1A"
-                        },
                         {
                             "title": "Giovedì la partita di Conference League Fiorentina-Viktoria Plzen",
                             "link": "https://www.comune.fi.it/comunicati-stampa/giovedi-la-partita-di-conference-league-fiorentina-viktoria-plzen",
                             "snippet": "Giovedì allo stadio Franchi si disputerà l'incontro di Conference League valevole per i quarti di finale e che vedrà Fiorentina scenderà in campo contro il ...",
                             "source": "Comune di Firenze",
-                            "date": "22h ago"
+                            "date": "1w ago"
                         },
                         {
-                            "title": "Fiorentina-Genoa 1-1: a Gudmundsson risponde Ikoné, la sintesi ...",
-                            "link": "https://www.rainews.it/video/2024/04/fiorentina-genoa-la-sintesi-della-partita-1727515b-39ea-4c1d-b06c-88b40af35cd9.html",
-                            "snippet": "Al 42' il rigore che sblocca il match, al 54' il pareggio della Viola, che aveva avuto già un gol annullato a Belotti per fuorigioco.",
-                            "source": "Rai Sport",
-                            "date": "10h ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcTkdXCXKukJqOXUdxBETGYokuUlTstatlQWaxN4eJSjZaYJqy6jR8E9tyZbYQRiVvouLelahaah"
+                            "title": "Commisso ridisegna la Fiorentina: scelto il nuovo dg dopo Barone",
+                            "link": "https://www.corrieredellosport.it/news/calcio/serie-a/fiorentina/2024/04/15-125869092/commisso_ridisegna_la_fiorentina_scelto_il_nuovo_dg_per_il_dopo_barone",
+                            "snippet": "La Fiorentina è ripartita dopo la tragica scomparsa di Joe Barone. Rocco Commisso, attraverso una nota pubblicata dal sito del club, ha annunciato quali ...",
+                            "source": "Corriere dello Sport.it",
+                            "date": "1w ago",
+                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcRanXAu67HsPw2HVC9xZ3SqX5yVoCD9KDjIrmWA8g5Y0KlTEjyNkM7NeiU1Toh4BKloRIvE4EJR"
                         },
                         {
                             "title": "Fiorentina-Genoa 1-1: a Gudmundsson risponde Ikoné",
                             "link": "https://www.rainews.it/articoli/2024/04/calcio-serie-a-giornata-32-fiorentina-genoa-stadio-artemio-franchi-firenze-cronaca-testuale-8539c62f-ab86-42b6-81ec-70119160bf64.html",
                             "snippet": "Al 42' il rigore che sblocca il match, al 54' il pareggio della Viola, che aveva avuto già un gol annullato a Belotti per fuorigioco.",
                             "source": "Rai News",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcTtmz_tjw7VlIX3vLbgXCXIl06ViO-8mY0LoMgNEHr5Uj_KYMzlUzlfz0oYniLmNvlHFPvqlV-R"
                         },
                         {
@@ -916,207 +959,74 @@
                             "link": "https://www.repubblica.it/sport/dirette/calcio/serie-a-2023/diretta-fiorentina-genoa-g2380706/",
                             "snippet": "Rallenta ancora la Fiorentina, che non va oltre l'1-1 in casa contro il Genoa. I rossoblù sbloccano la gara con il calcio di rigore trasformato da ...",
                             "source": "La Repubblica",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcT5uExKtms0kUnia_nFFw8hQDzyGwoYRByyZmtx-lsasZy7D4S8UUc3juUo4a3cU2uzPxJ7RXE3"
                         },
                         {
-                            "title": "Ikoné risponde a Gudmundsson: Gila ferma Italiano. Fiorentina, tutto ...",
-                            "link": "https://www.tuttosport.com/news/calcio/serie-a/2024/04/15-125907702/ikone_risponde_a_gudmundsson_gila_ferma_italiano_fiorentina_tutto_sulle_coppe",
-                            "snippet": "I viola non sono riusciti ad imporsi sul Genoa: al Franchi finisce 1-1 dopo una partita complicata.",
-                            "source": "Tuttosport",
-                            "date": "16h ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcTO3CZcDr1T7N7GGbqn10E11o7Kp1TSZJ-XzGKLnlw3Gg2VimYF5_-ADLub0KXZnRjv_Aq7TBzR"
+                            "title": "Fiorentina-Genoa 1-1: a Gudmundsson risponde Ikoné, la sintesi ...",
+                            "link": "https://www.rainews.it/video/2024/04/fiorentina-genoa-la-sintesi-della-partita-1727515b-39ea-4c1d-b06c-88b40af35cd9.html",
+                            "snippet": "Al 42' il rigore che sblocca il match, al 54' il pareggio della Viola, che aveva avuto già un gol annullato a Belotti per fuorigioco.",
+                            "source": "Rai Sport",
+                            "date": "1w ago",
+                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcTkdXCXKukJqOXUdxBETGYokuUlTstatlQWaxN4eJSjZaYJqy6jR8E9tyZbYQRiVvouLelahaah"
+                        },
+                        {
+                            "title": "Fiorentina, lo sfogo di Sottil: \"Chi ti critica...\" / FOTO",
+                            "link": "https://www.firenzetoday.it/sport/calcio/riccardo-sottil-critiche-fiorentina.html",
+                            "snippet": "Non è un momento prolifico per il reparto offensivo della Fiorentina. Anche Vincenzo Italiano, nel post partita contro il Genoa, ha chiesto di più dai suoi ...",
+                            "source": "FirenzeToday",
+                            "date": "1w ago",
+                            "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQ1gWRiwOUYiGBqxtqCwexmu99T8Ii_XW74et9zvP6p22-TKyaC2GMuNEDJlu1zn5iQZ1wFKgnh"
+                        },
+                        {
+                            "title": "La Fiorentina non vince più. Solo un pari col Genoa",
+                            "link": "https://ilreporter.it/fiorentina/la-fiorentina-non-vince-piu-solo-un-pari-col-genoa/",
+                            "snippet": "Viola ancora in affanno in una partita alla portata dei giocatori di Italiano. Segna Gudmundsson su rigore poi il pareggio di Ikoné.",
+                            "source": "Il Reporter",
+                            "date": "1w ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcQFQj6WXwSOX60M-_y0_QtpKnQBB3uE3YxTfoe70_QusBzfAoa5yJg7P4uL39_ZX2c1fZ_TS_Wx"
                         },
                         {
                             "title": "Pagelle Fiorentina: guizzo Ikoné, sbaglia Martinez Quarta",
                             "link": "https://www.corrieredellosport.it/news/calcio/serie-a/fiorentina/2024/04/16-125924595/pagelle_fiorentina_guizzo_ikone_sbaglia_martinez_quarta",
                             "snippet": "Terracciano concreto come al solito, Bonaventura ci prova fin da subito. Belotti lancia un segnale verso la Conference.",
                             "source": "Corriere dello Sport.it",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQcoua5NkwXOc06gAImWy3ZuaXD6nDZ6UbvRUyWcj8j1u_hFSxsxmR_9x4CoYoNEhmGAjhxfTVw"
-                        },
-                        {
-                            "title": "La Fiorentina non vince più. Solo un pari col Genoa",
-                            "link": "https://ilreporter.it/fiorentina/la-fiorentina-non-vince-piu-solo-un-pari-col-genoa/",
-                            "snippet": "La Fiorentina pareggia (1-1) allo stadio Artemio Franchi contro il Genoa. Era una partita, sulla carta, alla portata dei viola che potevano così fare un ...",
-                            "source": "Il Reporter",
-                            "date": "1d ago",
-                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcQFQj6WXwSOX60M-_y0_QtpKnQBB3uE3YxTfoe70_QusBzfAoa5yJg7P4uL39_ZX2c1fZ_TS_Wx"
                         },
                         {
                             "title": "Ikoné risponde a Gudmundsson: Fiorentina-Genoa 1-1",
                             "link": "https://sport.sky.it/calcio/serie-a/partite/2023/giornata-32/fiorentina-genoa/risultato-gol",
                             "snippet": "Fiorentina Genoa su Sky Sport: scopri tutti gli aggiornamenti sulla partita di Serie A in tempo reale.",
                             "source": "Sky Sport",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcS7l1vrUutkr95u6CQlBfkBH16FlCQLv4mBOG1-5znoXgUXBdc6mxen9qvsxMvuFZg6kjeLomdG"
                         },
                         {
-                            "title": "Conference: Fiorentina con il Viktoria per pass semifinali",
-                            "link": "https://www.ansa.it/sito/notizie/sport/2024/04/16/conference-fiorentina-con-il-viktoria-per-pass-semifinali_2930ad6a-5bb7-4298-8ea9-62b539db4d6e.html",
-                            "snippet": "Striscioni dei tifosi in città: 'Giovedì tutti allo stadio' (ANSA)",
-                            "source": "Agenzia ANSA",
-                            "date": "14h ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcTPZd8U21VPy9lJ6M0tOpVLfg83uw1HNSVYI9Rgaa8_GpVZAIf9T9C30fxt90jXxseo3Z7pDDT1"
-                        }
-                    ]
-                },
-                {
-                    "query": "Francesco Benigno",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Francesco+Benigno&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Francesco+Benigno&tz=420",
-                    "traffic": 20000,
-                    "related_queries": [
-                        {
-                            "query": "Peppe Di Napoli",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Peppe+Di+Napoli&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Peppe+Di+Napoli&tz=420"
-                        }
-                    ],
-                    "articles": [
-                        {
-                            "title": "Isola dei Famosi, scatta la lite tra Peppe Di Napoli e Francesco ...",
-                            "link": "https://www.ilfattoquotidiano.it/2024/04/16/isola-dei-famosi-scatta-la-lite-tra-peppe-di-napoli-e-francesco-benigno-fallito-si-deve-svegliare-anche-luxuria-nel-mirino-delle-critiche/7515164/",
-                            "snippet": "Volano parole grosse all'Isola dei Famosi tra Francesco Benigno e Peppe Di Napoli. Durante l'ultima puntata, trasmessa lunedì 15 aprile su Canale 5, ...",
-                            "source": "Il Fatto Quotidiano",
-                            "date": "22h ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcT9eUn4jnz7wUuTVgPTc_FvdxmkgNceM71NE2YdsO7IWBdiilzQU0J5LVQppGU-P9hrI8p3SlV6"
-                        },
-                        {
-                            "title": "Isola dei Famosi 2024, Francesco Benigno litiga con Peppe Di ...",
-                            "link": "https://movieplayer.it/news/isola-dei-famosi-2024-francesco-benigno-peppe-di-napoli-vladimir-clip_140807/",
-                            "snippet": "L'attore siciliano dopo aver litigato con un concorrente ha contestato le clip mandate in onda dalla produzione.",
-                            "source": "Movieplayer.it",
-                            "date": "21h ago",
-                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcQLIZ5Oo3m5fxFgGSLatZnuAxgFNkfuYubIxWQlfIPRR9TUAgjBgH8M4Z17-gfT2UbI8O3Qx_te"
-                        },
-                        {
-                            "title": "Isola dei Famosi, Peppe Di Napoli litiga con Francesco Benigno ...",
-                            "link": "https://www.napolitoday.it/attualita/peppe-di-napoli-francesco-benigno-isola-dei-famosi.html",
-                            "snippet": "Il pescivendolo star di TikTok si è scontrato con l'attore siciliano per alcune divergenze. I naufraghi - quasi tutti - si sono schiarati con Di Napoli che ...",
-                            "source": "NapoliToday",
-                            "date": "21h ago",
-                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcSJRmVk-9WgxvQlok3ccHlnOsKvHGsKfK0B5r-MMJILn2mGGmooGfi8u-3YKz8K2AVf-0tsPW4J"
-                        },
-                        {
-                            "title": "Lite all'Isola 2024 tra Peppe Di Napoli e Francesco Benigno: “Sei un ...",
-                            "link": "https://www.fanpage.it/spettacolo/programmi-tv/lite-allisola-2024-tra-peppe-di-napoli-e-francesco-benigno-sei-un-fallito-poi-lo-scontro-con-luxuria/",
-                            "snippet": "Scontro tra Peppe Di Napoli e Francesco Benigno all'Isola dei famosi 2024 durante la puntata in onda il 15 aprile.",
-                            "source": "Tv Fanpage",
-                            "date": "1d ago",
-                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcRKoRb0sgnP82bkN40Nq3A7DDsgId8Db3BJT0vaFvx3ALtvir9EJBEOX16VF2iUC8zI0JfdBJVs"
-                        },
-                        {
-                            "title": "Francesco Benigno, rissa sfiorata con Peppe Di Napoli all'Isola dei ...",
-                            "link": "https://www.ilsussidiario.net/news/francesco-benigno-rissa-sfiorata-con-peppe-di-napoli-allisola-dei-famosi-2024-fallito-non-sei-nessuno/2691291/",
-                            "snippet": "Peppe Di Napoli e Francesco Benigno, la lite sfocia quasi in rissa all'Isola dei Famosi 2024: \"Sei un fallito nella vita, non sei nessuno\"",
-                            "source": "Il Sussidiario.net",
-                            "date": "1d ago",
-                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcRQ-6Exe3DhIi6s3pWJrVoVwoAl17Srg4TIm7-YURf_GI9hPlcpm2k7kQMtHj5SfAH3ViJMc69a"
-                        },
-                        {
-                            "title": "Isola 18, Maité Yanes perde la pazienza con Francesco Benigno ...",
-                            "link": "https://www.isaechia.it/isola-18-maite-yanes-francesco-benigno-sopporto-litigare/",
-                            "snippet": "Come mostrato nell'odierno appuntamento con il daytime de L'Isola dei Famosi, Francesco Benigno ha discusso con due naufraghi.",
-                            "source": "Isa e Chia",
-                            "date": "1d ago",
-                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcQsV0TAHo9BxkkeUqUagzuRg8guTer9HO4nfUxIhKIqR8FXZ22ylC0sZSGuPph9IeUcIJgoxngl"
-                        },
-                        {
-                            "title": "Isola dei famosi: lite tra Francesco Benigno e Peppe Di Napoli: “Sei ...",
-                            "link": "https://www.mondopalermo.it/isola-dei-famosi-lite-tra-francesco-benigno-e-peppe-di-napoli-sei-un-fallito/",
-                            "snippet": "Si complica il percorso di Francesco Benigno all'Isola dei famosi. L'attore palermitano è finito in nomination insieme a Daniele Radini Tedeschi, Artur Dainese, ...",
-                            "source": "Mondopalermo.it",
-                            "date": "17h ago"
-                        }
-                    ]
-                },
-                {
-                    "query": "Lorenzo Sonego",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Lorenzo+Sonego&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Lorenzo+Sonego&tz=420",
-                    "traffic": 20000,
-                    "related_queries": [
-                        {
-                            "query": "atp bucarest 2024",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=atp+bucarest+2024&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=atp+bucarest+2024&tz=420"
-                        },
-                        {
-                            "query": "fonseca tennis",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=fonseca+tennis&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=fonseca+tennis&tz=420"
-                        }
-                    ],
-                    "articles": [
-                        {
-                            "title": "ATP Bucarest, Sonego ko all'esordio: il baby Fonseca vince in 2 set",
-                            "link": "https://sport.sky.it/tennis/2024/04/16/sonego-fonseca-atp-bucarest-risultato",
-                            "snippet": "Alla prima uscita ufficiale con il nuovo coach Fabio Colangelo, il torinese ha perso in due set contro il baby fenomeno brasiliano Joao Fonseca, ...",
-                            "source": "Sky Sport",
-                            "date": "21h ago",
-                            "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQs34jGMvhasOGWmM9u88Gnj1wN671gxKGHQcia9nQxGKg9N_GIpvlQjj7XQ-UrVvMLYD4bJMS0"
-                        },
-                        {
-                            "title": "ATP 250 Bucarest: Lorenzo Sonego eliminato per mano di un ...",
-                            "link": "https://oktennis.it/2024/04/atp-250-bucarest-lorenzo-sonego-eliminato-per-mano-di-un-talentuoso-e-giovane-joao-fonseca/",
-                            "snippet": "Tennis | Featured | Si ferma al primo turno la corsa di Lorenzo Sonego al torneo ATP 250 di Bucarest. L'ottima partita del piemontese non è bastato per ...",
-                            "source": "oktennis",
-                            "date": "17h ago",
-                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcSwTYhtzwg4NfvHNop3biHx3i3HdYvJx7rLoXt8fTus1s7Uj3w7Xu_5aK18tmMeVYmZIuCUXWTW"
-                        },
-                        {
-                            "title": "Live Lorenzo Sonego - João Fonseca - ATP, Bucuresti: Punteggi ...",
-                            "link": "https://www.eurosport.it/tennis/atp-bucuresti/2024/live-lorenzo-sonego-joao-fonseca_mtc1514359/live.shtml",
-                            "snippet": "Eurosport è la vostra fonte per gli ultimi aggiornamenti sulle partite di ATP, Bucuresti. Ecco cosa è successo in Lorenzo Sonego - João Fonseca, ...",
-                            "source": "Eurosport.it",
-                            "date": "21h ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcSdTMb-WanhSxwYXG1W4j6Hd5ozGCztyOmcKJmeWlsP-_t_IYmGq7WeKaPupoCSCxMyslp-qSmk"
-                        },
-                        {
-                            "title": "Joao Fonseca sorprende Lorenzo Sonego al primo turno a Bucarest",
-                            "link": "https://www.tennisitaliano.it/joao-fonseca-sorprende-lorenzo-sonego-al-primo-turno-a-bucarest-58608",
-                            "snippet": "Il classe 2006 brasiliano vince un gran match al primo turno in Romania: per Lorenzo una brutta battuta d'arresto.",
-                            "source": "TennisItaliano.it",
-                            "date": "21h ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcRabDUtXdc6GaBAM_wBTFxXQWHml5ixk9Oo0QvzI9IzMT2NgfZIyyKPrZww9WYMW63974d7FbkI"
-                        },
-                        {
-                            "title": "ATP Bucarest, l'astro nascente Joao Fonseca elimina Lorenzo ...",
-                            "link": "https://www.oasport.it/2024/04/atp-bucarest-lastro-nascente-joao-fonseca-elimina-lorenzo-sonego-in-due-set/",
-                            "snippet": "Si chiude mestamente l'avventura di Lorenzo Sonego all'ATP di Bucarest. Il tennista azzurro cade al primo turno contro la wild card brasiliana Joao Fonseca, ...",
-                            "source": "OA Sport",
-                            "date": "21h ago",
-                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcQVPBfyz0zjEfVxGudpwdwi7WA116eS8rA-hccqjlQtbwua-wWDrJEAlwhTEPGClCNdG-USfQpW"
-                        },
-                        {
-                            "title": "Atp Bucarest, Sonego eliminato all'esordio: ko contro il 17enne ...",
-                            "link": "https://www.corrieredellosport.it/news/tennis/2024/04/16-125939622/atp_bucarest_sonego_eliminato_all_esordio_ko_contro_il_17enne_fonseca",
-                            "snippet": "Finisce subito l'avventura del tennista azzurro al Tiriac Open, battuto dal brasiliano numero 276 del ranking.",
-                            "source": "Corriere dello Sport.it",
-                            "date": "14h ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcRebmC7SbdNd2dJyGXlEZNeLzNDHfMB-PkmoJS4E6B-8EOH_XxfJmwaW9R9aaEJnC6xYghbd5r4"
-                        },
-                        {
-                            "title": "Atp Bucarest, Sonego ko all'esordio cede al 17enne Fonseca",
-                            "link": "https://www.adnkronos.com/sport/atp-bucarest-sonego-ko-al-primo-turno-contro-17enne-fonseca_67vAx4v6FC9oONAOizGp2Y",
-                            "snippet": "Il 28enne azzurro, numero 51 del mondo, ha ceduto al giovane brasiliano con il punteggio di 7-6 (7-5), 7-5 in due ore e cinque minuti di gioco.",
-                            "source": "Adnkronos",
-                            "date": "21h ago",
-                            "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQWNq23kUTLK5c1RVtzJwtyMkQfN864QsRBmdbjHR-ee8aDYC-kbhB15eoWkxyFH_5x9tWwINhV"
+                            "title": "Fiorentina-Viktoria Plzen dove vederla: Sky, DAZN, NOW o TV8 ...",
+                            "link": "https://www.goal.com/it/liste/fiorentina-viktoria-plzen-dove-vederla-sky-dazn-now-o-tv8-canale-tv-diretta-streaming-formazioni/bltd48d7ca38d584c23",
+                            "snippet": "La Fiorentina sfida il Viktoria Plzen nel ritorno dei quarti di Conference League: tutto sulle formazioni e su dove vedere la gara in tv e streaming.",
+                            "source": "Goal.com",
+                            "date": "1w ago",
+                            "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcSTiKyQos-qHlz8f2RvmCAorWgAYNAWNtjD0tRB61qNnvZZ-c5_OfrPCGc29e7J9ths1EF4qWZy"
                         }
                     ]
                 },
                 {
                     "query": "Palmer Cole",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Palmer+Cole&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Palmer+Cole&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Palmer+Cole&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Palmer+Cole&tz=420",
                     "traffic": 20000,
                     "related_queries": [
                         {
                             "query": "cole palmer",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=cole+palmer&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=cole+palmer&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=cole+palmer&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=cole+palmer&tz=420"
+                        },
+                        {
+                            "query": "Palmer",
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Palmer&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Palmer&tz=420"
                         }
                     ],
                     "articles": [
@@ -1125,38 +1035,38 @@
                             "link": "https://www.fanpage.it/sport/calcio/perche-il-manchester-city-ha-sacrificato-cole-palmer-capocannoniere-della-premier-insieme-a-haaland/",
                             "snippet": "Cole Palmer incanta la Premier League con i suoi gol e si gioca un posto per i prossimi Europei: perché il Manchester City e Guardiola lo hanno venduto.",
                             "source": "Tv Fanpage",
-                            "date": "22h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcRAI7-qhP2HgDg0m6cfY-xx_knLMGZL0eZF-AlzATBE6Gp3940GAAwzXp2XgX-fhTobKDbPsW4J"
                         }
                     ]
                 },
                 {
                     "query": "Salone del Mobile 2024",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Salone+del+Mobile+2024&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Salone+del+Mobile+2024&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Salone+del+Mobile+2024&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Salone+del+Mobile+2024&tz=420",
                     "traffic": 20000,
                     "related_queries": [
                         {
                             "query": "Fuorisalone 2024",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=Fuorisalone+2024&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Fuorisalone+2024&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=Fuorisalone+2024&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Fuorisalone+2024&tz=420"
                         }
                     ],
                     "articles": [
                         {
                             "title": "Partita la Design Week: ecco cosa vedere al Salone del Mobile 2024",
                             "link": "https://www.mbnews.it/2024/04/milano-cosa-vedere-al-salone-del-mobile-2024/",
-                            "snippet": "Impossibile arrivare a tutto, ma le opportunità sono divise in diversi distretti: alcuni centrali, come Zona Centro, 5VIE Art+Design, Brera Design District, ...",
+                            "snippet": "Dal 16 al 21 aprile c'è la Design Week: tanti eventi e installazioni in programma. Una guida per sapere cosa vedere al Salone del Mobile 2024.",
                             "source": "MBnews",
-                            "date": "20h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcSdVCOQ8vjprk_D42Xji9MksixF3h7DlfVCeaoFTUvGzgAnObKOc2kUoeQq6clXd1JLDpBhilbI"
                         },
                         {
                             "title": "Cosa vedere al Salone del Mobile 2024",
                             "link": "https://www.internimagazine.it/fuorisalone/fuorisalone-2024/inizia-il-salone-del-mobile-2024-come-visitarlo-e-le-novita-da-non-perdere/",
-                            "snippet": "Il Salone del mobile ha messo a punto un programma culturale diffuso in diversi padiglioni per coinvolgere il visitatore lungo l'intero percorso di visita.",
+                            "snippet": "Dal talk il 17 aprile con il premio Pritzker Francis Kéré alle stanze del pensiero del regista David Lynch, cosa vedere al Salone del Mobile.",
                             "source": "Interni",
-                            "date": "22h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcTeNYH3X1eDFFADYsPE0P3f6qMLozOMvJe2IKtJKXmzCIBREhqzHq91HjRLJk8-CqdfgvzaETlT"
                         },
                         {
@@ -1164,23 +1074,23 @@
                             "link": "https://www.firstonline.info/salone-del-mobile-2024-dove-come-e-quando-a-milano-la-design-week-con-1-300-eventi-tutto-quello-che-ce-da-sapere-e-vedere/",
                             "snippet": "Salone del Mobile 2024, a Milano l'edizione numero 62 viaggia all'insegna dei record. Numeri imponenti, visitatori da 130 Paesi. Quest'anno anche EuroCucina ...",
                             "source": "FIRSTonline",
-                            "date": "18h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcSglnVepVuGmZZ0se6o9fk-AZEZBhqq_J0jC2cBfSxecX9VZyBiQn9eGYAZfPuPcsTzPnpVoVST"
                         },
                         {
                             "title": "Salone del Mobile: Made in Italy dell'arredo, trend e innovazione ...",
                             "link": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-gli-eventi/economia-e-mercati/2024/04/salone-del-mobile-made-in-italy-arredo",
-                            "snippet": "Ritorna a Fiera Milano Rho, il Salone del Mobile da martedì 16 a domenica 21 aprile, con un intervento di Intesa Sanpaolo dedicata al comparto dell'arredo.",
+                            "snippet": "Segui gli interventi del Salone del Mobile con esperti e professionisti del settore a tema design e arredamento, dedicato al comparto dell'arredo.",
                             "source": "Gruppo Intesa Sanpaolo",
-                            "date": "1d ago",
-                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcR9dhAmvBm2_fM-pW9KE5CU0TW9jAoDrTDBIPtUWqGk5cDkTgdzTe0VbiYG2l8mdYKA1aY3o1zH"
+                            "date": "1w ago",
+                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcSgW15rIlDpssuEZk6RIlhbsvsDW4LkVascqQfwNdGXFRUz7zohVWHhnJvemkK8sZZliR-lIBeh"
                         },
                         {
                             "title": "Il Salone del Mobile 2024: edizione all'insegna dell'innovazione e ...",
                             "link": "https://artemagazine.it/il-salone-del-mobile-2024-unedizione-allinsegna-dellinnovazione-e-della-sostenibilita/",
                             "snippet": "Salone del Mobile 2024: Milano capitale del design. Innovazione, sostenibilità e creatività per il futuro dell'abitare.",
                             "source": "Arte Magazine",
-                            "date": "21h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcT2NaLtEJMiDEb-q3A_AvZQGtphGaLyy1vz6MpBiHx8T9PFpBbNZNo0Lo5PEoGKUNa2uUNapBU3"
                         },
                         {
@@ -1188,7 +1098,7 @@
                             "link": "https://www.archiportale.com/news/2024/04/eventi/al-via-oggi-il-salone-del-mobile.milano-2024_98930_32.html",
                             "snippet": "Cosa vedere al Salone del Mobile 2024. Tre grandi installazioni, talk con ospiti internazionali, 25 anni di SaloneSatellite,un biglietto speciale per.",
                             "source": "Archiportale.com",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcRizPaJa-CMLkbnI87MwklU3MDGrpTvm4rJ6PvUKvadPPjNOkG8hQEHd0NAJK-ZWLxxljcHRuhT"
                         },
                         {
@@ -1196,7 +1106,7 @@
                             "link": "https://tg.la7.it/societa/salone-mobile-2024-16-04-2024-210953",
                             "snippet": "Il numero maggiore di biglietti venduti è ai visitatori cinesi ma sono tantissimi gli stranieri anche da altri continenti. E' l'anno delle biennali del bagno ( ...",
                             "source": "TG La7",
-                            "date": "18h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcSUjskb8dkt0jer8WobrnuaoOE98UxcsLEQlbbXW1DmNpWG7fuE20wIGgQ9PGYhn8bTnE3MWKlZ"
                         },
                         {
@@ -1204,38 +1114,22 @@
                             "link": "https://www.elledecor.com/it/design/a60425960/salone-del-mobile-2024-gabriele-rossi-racconta-under-the-surface/",
                             "snippet": "Salone del Mobile 2024: Gabriele Rossi racconta Under the Surface. Leggi tutto l'articolo su Elle Decor.",
                             "source": "elledecor.com",
-                            "date": "17h ago"
+                            "date": "1w ago"
                         },
                         {
                             "title": "LA PALLACANESTRO CANTÙ AL SALONE DEL MOBILE 2024 ...",
                             "link": "https://pallacanestrocantu.com/la-pallacanestro-cantu-al-salone-del-mobile-2024/",
                             "snippet": "Nella mattinata di martedì 16 aprile, una delegazione dell'Acqua S.Bernardo Cantù composta da Christian Burns, Curtis Nwohuocha e Solomon Young ha visitato, ...",
                             "source": "Pallacanestro Cantù",
-                            "date": "17h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQ07PBOtB8-zhpc8l1fh_z58KDQ809jR-Zi5lyOXlp0NmijWieUh7iAO8bctyvhaI8C1indTr5v"
                         }
                     ]
                 },
                 {
-                    "query": "Andrea Delogu",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Andrea+Delogu&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Andrea+Delogu&tz=420",
-                    "traffic": 10000,
-                    "articles": [
-                        {
-                            "title": "Andrea Delogu sul fidanzato Luigi Bruno: \"Con lui tutto è tornato ad ...",
-                            "link": "https://metropolitanmagazine.it/andrea-delogu-sul-fidanzato-luigi-bruno-con-lui-tutto-e-tornato-ad-essere-nuovo/",
-                            "snippet": "Andrea Delogu dopo la fine del matrimonio con l'attore Francesco Montanari, ha intrapreso una relazione con il fidanzato e modello Luigi Bruno.",
-                            "source": "Metropolitan Magazine Italia",
-                            "date": "1d ago",
-                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcTLa-vjQ0LY3qgg9wZtJyMKIP42i5eFyTywCF5BqOpMzFZ_2jCbsfqApTPvpcuhy6oZ4cSzaGJw"
-                        }
-                    ]
-                },
-                {
                     "query": "Claudia Cardinale",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Claudia+Cardinale&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Claudia+Cardinale&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Claudia+Cardinale&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Claudia+Cardinale&tz=420",
                     "traffic": 10000,
                     "articles": [
                         {
@@ -1243,7 +1137,7 @@
                             "link": "https://www.rainews.it/articoli/2024/04/gli-86-anni-di-claudia-cardinale-musa-di-grandi-registi-visconti-e-fellini-e71ff1e9-1e6c-4c28-b9c8-2731522db186.html",
                             "snippet": "Pur di lavorare con lei, i due registi si accordarono per averla una settimana a testa sul set di “Il Gattopardo” e “Otto e mezzo”, film girati in ...",
                             "source": "Rai News",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcQNafkMSsat5vFDvSAj3kfjtmOmXjPJLdNjvFUfpB3mRHRSmIatFwMUu5_gvjkCRG5UI4yncV0I"
                         },
                         {
@@ -1251,7 +1145,7 @@
                             "link": "https://www.vogue.it/gallery/claudia-cardinale-film-stile",
                             "snippet": "Per festeggiare gli 86 anni di Claudia Cardinale, ripercorriamo lo stile della grande diva attraverso gli scatti più belli della sua carriera ...",
                             "source": "Vogue.it",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcStsSuSlJlIgjwRAKBV5MJcnuXV4QOeoVa9KR17-XS-Ww_esWGmP29DzuKEXIVBOVEaC4DVRz98"
                         },
                         {
@@ -1259,15 +1153,15 @@
                             "link": "https://agrpress.it/auguri-a-claudia-cardinale-8/",
                             "snippet": "La grande attrice, interprete di Un maledetto imbroglio di Pietro Germi, Il magistrato di Luigi Zampa, Il bell'Antonio e La viaccia di Mauro Bolognini, ...",
                             "source": "Agrpress",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcTSMETpycbU9L3XbfLSN1yhnLK9y4lCPOkwFuKlH2QKtuwYwV6Rf5MsW0SNbFtBorHmzEqTGSWo"
                         },
                         {
                             "title": "Claudia Cardinale, per Pasolini era una gatta perduta nella tragedia ...",
                             "link": "https://www.globalist.it/culture/2024/04/15/claudia-cardinale-la-gatta-perduta-nella-tragedia/",
-                            "snippet": "Così Pier Paolo Pasolini aveva definito la grande attrice, icona nel cinema italiano.",
+                            "snippet": "quel viso di umile, di gatta, e così selvaggiamente perduta nella tragedia” sono parole di uno che di attori e di cinema se ne intendeva e che si intendeva ...",
                             "source": "Globalist.it",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcSQ8xRA6x6w1fRfbMS7DDuEpJ9SiNPC4n_XupOEFCdVkxuEWA3FgHXnvcbRikrkCuX8oUwaaJg6"
                         },
                         {
@@ -1275,30 +1169,30 @@
                             "link": "https://www.solodonna.it/news/claudia-cardinale-compie-86-anni-una-vita-dedicata-al-cinema.php",
                             "snippet": "Claudia Cardinale compie 86 anni: nata il 15 aprile del 1938, ha all'attivo una brillantissima carriera di attrice.",
                             "source": "SoloDonna.it",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcQJShEc4hv3kjyCLSLnfF46_IehaOqQrRT-EBEummD0adxq9Iu647T20D7lYEfSUtzsAmLS0Yhp"
                         }
                     ]
                 },
                 {
                     "query": "Avellino-Benevento",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Avellino-Benevento&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Avellino-Benevento&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Avellino-Benevento&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Avellino-Benevento&tz=420",
                     "traffic": 10000,
                     "related_queries": [
                         {
                             "query": "avellino - benevento",
-                            "google_trends_link": "https://trends.google.com/trends/explore?q=avellino+-+benevento&date=now+7-d&geo=IT",
-                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=avellino+-+benevento&tz=420"
+                            "google_trends_link": "https://trends.google.com/trends/explore?q=avellino+-+benevento&date=today+1-m&geo=IT",
+                            "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=avellino+-+benevento&tz=420"
                         }
                     ],
                     "articles": [
                         {
                             "title": "LIVE/ Avellino-Benevento, le formazioni ufficiali",
                             "link": "https://www.anteprima24.it/avellino/primo-piano-avellino/live-avellino-benevento-le-formazioni-ufficiali/",
-                            "snippet": "Tutto in una notte. Dopo la vittoria del campionato della Juve Stabia, Avellino e Benevento si affrontano in un derby che mette in palio il secondo posto in ...",
+                            "snippet": "Tutto in una notte. Dopo la vittoria del campionato della Juve Stabia, Avellino e Benevento si affrontano in un derby che mette in palio il secondo posto in classifica. Un posizionamento che in ottica playoff porta in dote l'ingresso alla seconda fase ...",
                             "source": "anteprima24.it",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcS3afW9xt6TcNzCqp5ew5WiKeGbPEl4wIpfqVTniNE_C_ywuZSjDeJQsZhfR1uywVMkLPer0uwb"
                         },
                         {
@@ -1306,7 +1200,7 @@
                             "link": "https://www.tuttoavellino.it/le-pagelle/avellino-benevento-1-0-le-pagelle-sgarbi-stende-la-strega-de-cristofaro-brilla-bene-ghidotti-e-cionek-133453",
                             "snippet": "L'Avellino vince anche il derby di ritorno col Benevento nel segno di Sgarbi. A centrocampo brilla De Cristofaro, bene Cionek, Ghidotti.",
                             "source": "TuttoAvellino.it",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcQ9IvehSPa02OM9ZPeg4hFJm-_6c6vBx2UBwMaMe1pvOpgNItVMGIlAM4_YuL5gggEA6rBeGW38"
                         },
                         {
@@ -1314,55 +1208,71 @@
                             "link": "https://www.avellinotoday.it/sport/calcio/avellino-benevento-angelo-antonio-d-agostino-16-aprile-2024.html",
                             "snippet": "Il presidente Angelo Antonio D'Agostino, a nome di tutta l'Unione Sportiva Avellino 1912, intende ringraziare i propri sostenitori per il comportamento ...",
                             "source": "AvellinoToday",
-                            "date": "22h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcSYWOwNQvO1xDKNLJcf_9AKacSPiQvLcN6J5S-WC-Rj4BB328Ui7zQnJXy0AelECrAjD8XAcMQn"
-                        },
-                        {
-                            "title": "Avellino-Benevento, Pazienza: \"Felice per i tifosi, siamo sulla strada ...",
-                            "link": "https://www.labtv.net/sport/2024/04/16/avellino-benevento-pazienza-felice-per-i-tifosi-siamo-sulla-strada-giusta/",
-                            "snippet": "16 Aprile 2024 | by Domenico Passaro. Avellino-Benevento, Pazienza: “Felice per i tifosi, siamo sulla strada giusta. Avellino Calcio.",
-                            "source": "LabTV",
-                            "date": "14h ago",
-                            "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcShcg8-OywFVQEE-zdpVzHbrdz4KxxfUbs7AQheZp4Fpu45WoSW88zI639t66ohzmU6hNXKJ6zD"
-                        },
-                        {
-                            "title": "Avellino, mani sul secondo posto: il Benevento cade nel derby e ...",
-                            "link": "https://www.rainews.it/tgr/campania/video/2024/04/seriec-c-avellino-benevento-crotone-juve-stabia-7a027d9b-2e63-417a-a616-8f802c9e012b.html",
-                            "snippet": "Un gol di Sgarbi regala il successo al Lupi. La Juve Stabia pareggia in undici contro dieci contro il Crotone, ma al Menti è festa comunque.",
-                            "source": "Rai News",
-                            "date": "9h ago",
-                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcRZFpW46XV2IN9cNv5wJhInJCFHENXGkfusQpK1yXZzy6XAm_XXwYyve7iNVuJWjJZzd6ekSlhX"
-                        },
-                        {
-                            "title": "Avellino-Benevento: in Curva Sud anche una proposta di matrimonio",
-                            "link": "https://www.tuttoavellino.it/parola-ai-tifosi/avellino-benevento-in-curva-sud-anche-una-proposta-di-matrimonio-133470",
-                            "snippet": "Avellino e Benevento sarà una serata indimenticabile per una giovane coppia irpina che ha deciso di sposarsi. Marco e Chiara si sono.",
-                            "source": "TuttoAvellino.it",
-                            "date": "21h ago",
-                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcTnevHpZI1Vw7kbcSWl8GosDk_y8ysA6nCmQCArpDo1IALX_v1uwGN-GMbAzmbBP7Dy_aouCusUXw"
                         },
                         {
                             "title": "Sgarbi fa esplodere il Partenio-Lombardi: l'Avellino manda ko il ...",
                             "link": "https://www.sportavellino.it/calcio/avellino-benevento-diretta-live-testuale-formazioni-tabellino/",
                             "snippet": "Cresce l'attesa per il tanto atteso derby tra Avellino e Benevento: segui la diretta live testuale dell'incontro.",
                             "source": "SportAvellino.it",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcTacOJ5dfQDwbDU_-4FPRyPgz2991q9p7lqGGaOXsrRb5Iv3jAfjR7oFAuZ3yLpUOGjgNqCV6hy"
+                        },
+                        {
+                            "title": "Avellino-Benevento, Pazienza: \"Felice per i tifosi, siamo sulla strada ...",
+                            "link": "https://www.labtv.net/sport/2024/04/16/avellino-benevento-pazienza-felice-per-i-tifosi-siamo-sulla-strada-giusta/",
+                            "snippet": "16 Aprile 2024 | by Domenico Passaro. Avellino-Benevento, Pazienza: “Felice per i tifosi, siamo sulla strada giusta. Avellino Calcio.",
+                            "source": "LabTV",
+                            "date": "1w ago",
+                            "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcShcg8-OywFVQEE-zdpVzHbrdz4KxxfUbs7AQheZp4Fpu45WoSW88zI639t66ohzmU6hNXKJ6zD"
+                        },
+                        {
+                            "title": "Avellino-Benevento: in Curva Sud anche una proposta di matrimonio",
+                            "link": "https://www.tuttoavellino.it/parola-ai-tifosi/avellino-benevento-in-curva-sud-anche-una-proposta-di-matrimonio-133470",
+                            "snippet": "Avellino e Benevento sarà una serata indimenticabile per una giovane coppia irpina che ha deciso di sposarsi. Marco e Chiara si sono.",
+                            "source": "TuttoAvellino.it",
+                            "date": "1w ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcTnevHpZI1Vw7kbcSWl8GosDk_y8ysA6nCmQCArpDo1IALX_v1uwGN-GMbAzmbBP7Dy_aouCusUXw"
                         },
                         {
                             "title": "Avellino-Benevento 1-0: bis dei biancoverdi nel derby",
                             "link": "https://www.ilmattino.it/sport/serie_c/avellino_benevento_1_0_risultato_gol-8058850.html",
                             "snippet": "L'Avellino conquista in casa il derby contro il Benevento che vale il secondo posto nella graduatoria del girone C di serie C. Un solo gol, ...",
                             "source": "Il Mattino",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcT_SAf_-Ip4wUpBPmYl911AeYQ_FvnILBLyZcdoOv3f9JXeKUHodzeqPpN6Qn-HsLCGJpPnImtx"
+                        },
+                        {
+                            "title": "Avellino – Benevento 1-0 | Gli Highlights - BeneventoNews24.it",
+                            "link": "https://www.beneventonews24.it/2024/04/16/avellino-benevento-1-0-gli-highlights/",
+                            "snippet": "Dopo il pareggio dell'ultimo turno contro la Juve Stabia, il Benevento di Mister Auteri cade al Partenio–Lombardi contro l'Avellino nel derby del ...",
+                            "source": "BeneventoNews24.it",
+                            "date": "1w ago",
+                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcS04Hjn-wldPg9TlBK607par-fZLU9FIVC_VQ_UQSz98qJ_E8PERM77lO7cJPGDzfdS-xKUtmrT"
+                        }
+                    ]
+                },
+                {
+                    "query": "Cagliari Calcio",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Cagliari+Calcio&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Cagliari+Calcio&tz=420",
+                    "traffic": 10000,
+                    "articles": [
+                        {
+                            "title": "Settore giovanile, i risultati del weekend - Cagliari",
+                            "link": "https://cagliaricalcio.com/news/settore-giovanile-i-risultati-del-weekend-14/",
+                            "snippet": "Copyright © 2024 Cagliari Calcio SpA Partita IVA IT 00271200925 Capitale sociale € 7.031.919,00 Cod. SDI SUBM70N.",
+                            "source": "Cagliari Calcio",
+                            "date": "1w ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcQ9R9hqJTC9_EOQuVJt39yrSiaWer_ScZwffM_ltpHh_d6rdiwlbvK3L-tV2UHZW36_ysr44vIJ"
                         }
                     ]
                 },
                 {
                     "query": "Emma Marrone",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Emma+Marrone&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Emma+Marrone&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Emma+Marrone&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Emma+Marrone&tz=420",
                     "traffic": 10000,
                     "articles": [
                         {
@@ -1370,15 +1280,15 @@
                             "link": "https://www.corriere.it/spettacoli/24_aprile_16/emma-marrone-parla-del-tumore-ho-avuto-paura-di-morire-mi-hanno-tolto-le-ovaie-ma-mi-piacerebbe-diventare-madre-238cafc9-bb51-4e0b-9ac2-b4c4162b0xlk.shtml",
                             "snippet": "Intervistata da \"Le Iene\", la 39enne cantante ha ripercorso le varie fasi della sua malattia. che ha scoperto per caso nel 2009, a un controllo medico.",
                             "source": "Corriere della Sera",
-                            "date": "20h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcTkOXvaa3duXVwAg3hnjE2_asHLTZ9MlvQsItZClgqX-fs3Go51ct_YRRcH-Z9fIm3hMvPHY6DB"
                         },
                         {
-                            "title": "Emma Marrone: «Dopo il tumore mi hanno tolto le ovaie ma posso ...",
+                            "title": "Emma Marrone e gli insulti social perché vuole avere un figlio da ...",
                             "link": "https://www.vanityfair.it/article/emma-marrone-dopo-tumore-mi-hanno-tolto-le-ovaie-ma-posso-avere-figli-mi-piacerebbe-diventare-madre",
-                            "snippet": "Ospite de Le Iene Emma Marrone ha parlato della malattia affrontata (tre volte) e sconfitta ma anche del sogno di avere figli: «Il fatto che le donne single ...",
+                            "snippet": "Ospite de Le Iene Emma Marrone aveva parlato del tumore, della rimozione delle ovaie e del sogno di avere figli: «Il fatto che le donne single non possano ...",
                             "source": "Vanity Fair.it",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcSa32dNhjEUTHIEbKzFIn5cY2FNN0GFc0JHbd0kuzcgYUTLVtsBWWbU7vtWhmuG0kfr9SEntJOF"
                         },
                         {
@@ -1386,7 +1296,7 @@
                             "link": "https://www.open.online/2024/04/16/emma-marrone-tumore-maternita-fecondazione-assistita/",
                             "snippet": "Ho l'utero. Solo che in Italia senza un compagno non posso accedere alla fecondazione assistita: che str***ata». L'inviato de Le Iene Nicolò De Devitiis ha ...",
                             "source": "Open",
-                            "date": "17h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcSRT9j4usTz3Y2PytVQ7ylwLjqpXo6hJOKL0wviM31OUIcxvkpDiUidAUJGYox9SvFlDQxNtBtn"
                         },
                         {
@@ -1394,7 +1304,7 @@
                             "link": "https://luce.lanazione.it/spettacolo/emma-marrone-ovaie-figlio-b394d3db",
                             "snippet": "La cantante salentina si è raccontata a Le Iene parlando anche degli anni difficili del tumore e dell'intervento di rimozione dell'ovaie che, però, non le ...",
                             "source": "La Nazione",
-                            "date": "15h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcQENmB7vkXiV0UWbcsBv6otSqhs9_dfwLvo8i4HQ3zKl9d7JeVMXheat0yV9VfFnfzspiVD72bG"
                         },
                         {
@@ -1402,7 +1312,7 @@
                             "link": "https://www.oggi.it/attualita/notizie/2024/04/16/emma-marrone-e-la-sua-malattia-mi-hanno-tolto-le-ovaie-per-un-tumore-ma-posso-ancora-avere-figli/",
                             "snippet": "La cantante racconta i dettagli più intimi del tumore che l'ha costretta a diversi interventi chirurgici. E parla del sogno di diventare madre.",
                             "source": "Oggi",
-                            "date": "23h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcRoJN4GDzOAF7AV1ordkW6X5yWS04gud_iYdW3kkSXyWTaKX_kyqWYnn5yOGr76XLIFFCiq2xi-"
                         },
                         {
@@ -1410,7 +1320,7 @@
                             "link": "https://www.iodonna.it/personaggi/star-italiane/2024/04/16/emma-marrone-fecondazione-assistita-critiche-social-trovati-uomo/",
                             "snippet": "Vorrei dei figli, ma in Italia le donne single non possono fare la fecondazione assistita» dice Emma Marrone. Finendo nel mirino delle critiche social.",
                             "source": "Io Donna",
-                            "date": "17h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcQmLU2-fd3af-aRCwedyH8Y_lEjVLgrBEgYvD1Vj-pmzFyi-PVGODyOfjjiTRdlkoDEoLjnoJjC"
                         },
                         {
@@ -1418,7 +1328,7 @@
                             "link": "https://www.tio.ch/people/people/1748838/il-desiderio-frustrato-di-maternita-di-emma-marrone",
                             "snippet": "ROMA - Emma Marrone continua a sognare di diventare madre, anche se a causa del cancro le sono state rimosse le ovaie. «Non ho fatto in tempo a congelare ...",
                             "source": "Ticinonline",
-                            "date": "15h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcSJX67e1DSdah7b9Hx7_XVBuf2ki4pL_x4lNPp9XEFUKUWmLpl2g7cPAdwnc1pJ7_haC_x9XTvdxQ"
                         },
                         {
@@ -1426,15 +1336,15 @@
                             "link": "https://www.iodonna.it/bellezza/capelli/2024/04/16/emma-marrone-capelli-beauty-look-intervista-che-tempo-che-fa-primavera-2024/",
                             "snippet": "Il nuovo hair look della cantante di Emma Marrone è un long bob disciplinato con il gel, in tinta sfumata con trucco in pendant.",
                             "source": "Io Donna",
-                            "date": "23h ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQClMFUVogmdfRJxBOku8Wtu1qaxXfTjrUu-dmH_3SL2521MowB32sR6S6W36ouicqbcBgIL82l"
                         }
                     ]
                 },
                 {
                     "query": "Lega Salvini Bossi",
-                    "google_trends_link": "https://trends.google.com/trends/explore?q=Lega+Salvini+Bossi&date=now+7-d&geo=IT",
-                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=now+7-d&engine=google_trends&geo=IT&q=Lega+Salvini+Bossi&tz=420",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Lega+Salvini+Bossi&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Lega+Salvini+Bossi&tz=420",
                     "traffic": 10000,
                     "articles": [
                         {
@@ -1442,7 +1352,7 @@
                             "link": "https://euractiv.it/section/capitali/news/il-fondatore-della-lega-umberto-bossi-chiarisce-che-salvini-deve-dimettersi-lanalisi-dellesperto/",
                             "snippet": "Di fronte al calo di popolarità tra gli elettori e all'interno del suo partito, la leadership di Matteo Salvini, vicepresidente del Consiglio italiano e ...",
                             "source": "EURACTIV Italia",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcQlI81OXOiUcTiGnB_JQtS93iH84ZUVBZRGvCnRizpmmyzXQLDC4MDNiw-XeIsWWZY-0WOYWu_B"
                         },
                         {
@@ -1450,14 +1360,14 @@
                             "link": "https://www.sulpanaro.net/2024/04/40-anni-della-lega-salvini-la-guido-con-cuore-da-10-anni-grazie-a-bossi/",
                             "snippet": "(Adnkronos) - “Ho preso la tessera della Lega nel 1990. È il 34esimo anniversario per me”. Così Matteo Salvini parlando dal palco della festa per i 40 anni ...",
                             "source": "SulPanaro",
-                            "date": "2d ago"
+                            "date": "1w ago"
                         },
                         {
                             "title": "Il teatro della memoria | Salvini è il vero figlio di Bossi, e non è mai ...",
                             "link": "https://www.linkiesta.it/2024/04/salvini-bossi-lega/",
                             "snippet": "L'idea del Carroccio delle origini, quello federalista e nordista, come un bel partito da contrapporre alla versione cattiva di questi giorni è un'invenzione.",
                             "source": "Linkiesta.it",
-                            "date": "1d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcSbpqJeGRqTm2ojVcAAKPqBn5pmheAzDtU8CkItAhL0oT_z6l36oLRaQVVWFeh3tMMPbwQ2OSJA"
                         },
                         {
@@ -1465,7 +1375,7 @@
                             "link": "https://www.sardegnalive.net/news/politica/505720/festa-lega-salvini-avevo-invitato-bossi-i-suoi-insulti-aiutano-a-migliorare",
                             "snippet": "“Io sono in Lega da 30 anni e sono abituato alle telefonate notturne e diurne di insulto e di polemica di Umberto Bossi, quindi mi servono per capire e ...",
                             "source": "Sardegna Live",
-                            "date": "2d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcR8wcQVnurlf7m5n76g2dOKuE_x60ZTwPshPQZhi6DQqtu2L3CnGpaXGhrpKqmVgz1yuhaxjtWN"
                         },
                         {
@@ -1473,7 +1383,7 @@
                             "link": "https://www.ansa.it/sito/notizie/politica/2024/04/14/bossi-boccia-salvini-serve-un-nuovo-leader.-la-replica-abituato-da-30-anni-alle_beee841d-7303-495f-94e0-c8bd8682e2f9.html",
                             "snippet": "'Giorgetti? E' bravo ma non dico nulla altrimenti lo massacrano'. E non andrà domani alla festa di Varese (ANSA)",
                             "source": "Agenzia ANSA",
-                            "date": "2d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcT2slAJllsFl4LP9ahs9JNg8qVRa4HSaDjzDWlnEEvbuUfRlPSOrMe4lNAAhsx0HIoVRhRjbs3q"
                         },
                         {
@@ -1481,7 +1391,7 @@
                             "link": "https://www.firstonline.info/lega-bossi-affonda-salvini-ma-dopo-le-elezioni-europee-i-governatori-si-sveglieranno/",
                             "snippet": "Il fondatore della Lega, Umberto Bossi, bacchetta senza mezzi termini, il segretario Matteo Salvini e lancia segnali di rivolta.",
                             "source": "FIRSTonline",
-                            "date": "2d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcTSCIbgkj7TxrkN7TWqUQU-alSkbzm-mhPh40BcG5QAMseSJAeGgEW4iLcHle4OCALHclovAuis"
                         },
                         {
@@ -1489,8 +1399,56 @@
                             "link": "https://www.adnkronos.com/politica/40-anni-della-lega-salvini-la-guido-con-cuore-da-10-anni-grazie-a-bossi_7aFqcyavebtjoJ4cK0ouvr",
                             "snippet": "Il leader del Carroccio: 'Ho preso la tessera della Lega nel 1990'. Calderoli: 'indeciso se venire perché usano tutto contro di me'",
                             "source": "Adnkronos",
-                            "date": "2d ago",
+                            "date": "1w ago",
                             "thumbnail": "https://t2.gstatic.com/images?q=tbn:ANd9GcSmzpi8Dg8RJ5ZnX4vn-UdsTBU7ERNt3nXLcDIlY-4KDUQ6nDBpIZ6YTvUbCSgFbl3iRJW5J9B1"
+                        }
+                    ]
+                },
+                {
+                    "query": "Challengers",
+                    "google_trends_link": "https://trends.google.com/trends/explore?q=Challengers&date=today+1-m&geo=IT",
+                    "serpapi_google_trends_link": "https://serpapi.com/search.json?data_type=TIMESERIES&date=today+1-m&engine=google_trends&geo=IT&q=Challengers&tz=420",
+                    "traffic": 10000,
+                    "articles": [
+                        {
+                            "title": "Gioco-partita-incontro: “Challengers” di Luca Guadagnino è puro ...",
+                            "link": "https://billboard.it/cultura/film/challengers-luca-guadagnino-recensione/2024/04/15157898/",
+                            "snippet": "\"Challengers\" di Luca Guadagnino, in uscita il 24 aprile, consacra Zendaya nel gotha delle attrici desiderabili da un cineasta.",
+                            "source": "Billboard Italia",
+                            "date": "1w ago",
+                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcQtRmYbCwkgRsS2acDx8vg3XGnBH7npql0Q9o0qqK02XRvrofbFCdLj4ULHqHDb9yw3FMjsdbuc"
+                        },
+                        {
+                            "title": "Challengers, lo sceneggiatore Justin Kuritzkes: \"Il tennis è davvero ...",
+                            "link": "https://www.gay.it/challengers-lo-sceneggiatore-justin-kuritzkes-il-tennis-e-davvero-omoerotico",
+                            "snippet": "“Challengers“ di Luca Guadagnino, con Zendaya, Josh O'Connor e Mike Faist, sarà nelle sale dal 24 Aprile. Qui la recensione di “Challengers” di Gay.it.",
+                            "source": "Gay.it",
+                            "date": "1w ago",
+                            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcSEIhaTwnb9HZdunuHlQCHsaMWNVLyK00ndueJKeJUi8hEBXjX5DFu6NNn9lo19j6apf2jT3jVu"
+                        },
+                        {
+                            "title": "Challengers Recensione",
+                            "link": "https://www.comingsoon.it/film/challengers/61787/recensione/",
+                            "snippet": "Challengers recensione del film di Luca Guadagnino ecco di cosa parla e com'è il film con Zendaya Josh O'Connor e Mike Faist critica di Challengers film ...",
+                            "source": "ComingSoon.it",
+                            "date": "1w ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcQFDn8-CKOrzApkagbIegf4RB1ZomTYEOjceCHFIxRGDFX01L-sPNqrA9L2cjhUYV42-459RUf3"
+                        },
+                        {
+                            "title": "Challengers, due nuove clip per il film di Guadagnino",
+                            "link": "https://blog.screenweek.it/2024/04/challengers-due-nuove-clip-886639.php/",
+                            "snippet": "Nella prima, Art Donaldson (Mike Faist) chiede a sua moglie Tashi Duncan (Zendaya) di dirgli che non importa se batterà o meno Patrick Zweig (Josh O'Connor) ...",
+                            "source": "ScreenWEEK - Cinema e Serie TV",
+                            "date": "1w ago",
+                            "thumbnail": "https://t3.gstatic.com/images?q=tbn:ANd9GcSSnaW5VUhma4Aqp3dwciHagWbwuGyd9xDEVN54sXhxzLs3qWDS4PEZfNvFVDK6z93W0MTfhSa2"
+                        },
+                        {
+                            "title": "Zendaya: “Per le scene di sesso in Challengers avevamo l'intimacy ...",
+                            "link": "https://luce.lanazione.it/spettacolo/zendaya-challengers-sesso-lintimacy-coordinator-ktci4v1c",
+                            "snippet": "Le scene di nudo, di intimità, non sempre sono facili da affrontare per tutti gli attori e le attrici. Così come non è detto che si crei complicità tra i ...",
+                            "source": "Luce!",
+                            "date": "1w ago",
+                            "thumbnail": "https://t1.gstatic.com/images?q=tbn:ANd9GcT2OBjUnNANfB5Z23lUMrgDkm_JI3I5nh216QoOhl08pAbbSAwoiuR33P5Db1SkEdr97A8-pLTt"
                         }
                     ]
                 }

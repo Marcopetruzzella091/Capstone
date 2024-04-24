@@ -10,6 +10,7 @@ export default function BioComponent(props) {
   };
 
   let info = props.info.user;
+  console.log(props.info.posts)
 
   return (
     
@@ -29,16 +30,18 @@ export default function BioComponent(props) {
             <h1>{info.name} {info.surname}</h1>
             <p className="mt-3">@{info.username}</p>
             {props.info.auth.user.id !== props.info.user.id ?
-              <button onClick={handleSubmit} className="btn btn-primary mt-3">
+              <> <button onClick={handleSubmit} className="btn btn-success mt-3">
                 {Follow ? "Unfollow" : "Follow"}
-              </button>
+              </button> <button className="btn btn-primary mt-3 text-white"> <Link  className="text-white" href={`/chatify/${props.info.user.id}`}>Contatta</Link></button> </>
               :
-               <Link className="btn btn-primary mt-3 text-white"  href="/editprofile">Modifica Profilo</Link> 
+               <Link className="btn btn-success mt-3 text-white"  href="/editprofile">Modifica Profilo</Link> 
             }
             <ul className="list-inline-pills mt-3">
-              <li><i className="fa-brands fa-html5 pe-2"></i> #TREND 1</li>
-              <li><i className="fa-brands fa-bootstrap pe-2"></i> #TREND 2</li>
-              <li><i className="fa-solid fa-magnifying-glass pe-2"></i>#TREND 3</li>
+              {props.info.posts.map((post, index) => ( index < 3 &&
+                <li><i className="fa-brands fa-html5 pe-2"></i> #{post.trend}</li>
+              ))}
+              
+              
             </ul>
             <p className="mt-1">{info.bio}</p>
           </div>

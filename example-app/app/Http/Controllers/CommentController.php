@@ -49,7 +49,7 @@ class CommentController extends Controller
             'user_id_sender' => $request->userid,
             'user_id_receiver' => $request->board_user_id,
             'post_id' => $request->postid,
-            'notification_content' => 'commented on your post',
+            'notification_content' => 'Ha commentato il tuo post',
         ]);
 
 

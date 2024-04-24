@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\like;
 use Illuminate\Http\Request;
+use  Illuminate\Support\Facades\Auth;
+use App\Models\notifications;
 
 class LikeController extends Controller
 {
@@ -29,7 +31,7 @@ class LikeController extends Controller
     
     
      public function store(Request $request)
-     {
+     {   
          // Controlla se esiste già un like con lo stesso post_id e user_id
          $existingLike = Like::where('post_id', $request->postid)
                              ->where('user_id', $request->userid)
@@ -38,14 +40,25 @@ class LikeController extends Controller
          // Se esiste già un like, elimina completamente il like
          if ($existingLike) {
              $existingLike->delete();
-         } else {
+         } else {if ($request->userid != $request->userliked){
+            $notifications = notifications::create([
+                'user_id_sender' => $request->userid,
+                'user_id_receiver' => $request->userliked,
+                'post_id' => $request->postid,
+                'notification_content' => 'piace il tuo post',
+            ]);}
              // Se non esiste un like, crea un nuovo like con lo stato true
              $like = Like::create([
                  'post_id' => $request->postid,
                  'user_id' => $request->userid,
                  'state' => true
+
+                 
              ]);
          }
+
+         
+
      }
      
 

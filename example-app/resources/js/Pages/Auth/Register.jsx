@@ -5,6 +5,9 @@ import InputLabel from '@/Components/InputLabel';
 import PrimaryButton from '@/Components/PrimaryButton';
 import TextInput from '@/Components/TextInput';
 import { Head, Link, useForm } from '@inertiajs/react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 export default function Register() {
     const { data, setData, post, processing, errors, reset } = useForm({
@@ -34,10 +37,20 @@ export default function Register() {
     };
 
     return (
-        <GuestLayout>
+        <Container className="mt-5 p-5">
+           <Row className='justify-content-center bg-white'>
+            
+            
+            <div  >
+            <div className='mt-5 w-75 mx-auto'><img src="/logo.png" alt=""  className='my-2 w-25 mx-auto'/></div>
+          <p className='text-center w-50 mx-auto'>
+OnTrend è un social network che offre agli utenti un'esperienza coinvolgente per esprimere e confrontare opinioni sui trend attuali, dalla moda alla tecnologia e alla cultura pop.</p>
+            
+         </div>
+        
             <Head title="Register" />
 
-            <form onSubmit={submit} enctype="multipart/form-data">
+            <form onSubmit={submit} enctype="multipart/form-data"  className='w-50 mx-auto'>
                 {/* Name */}
                 <div>
                     <InputLabel htmlFor="name" value="Name" />
@@ -194,6 +207,9 @@ export default function Register() {
                     </PrimaryButton>
                 </div>
             </form>
-        </GuestLayout>
+        
+        
+        </Row>
+        </Container>
     );
 }

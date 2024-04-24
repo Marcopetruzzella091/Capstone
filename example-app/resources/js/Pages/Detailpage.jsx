@@ -11,7 +11,7 @@ import { Head } from '@inertiajs/react'
 
 export default function Register(props) {
     let auth = props.auth.user.id;
-    console.log(props)
+
  
 
     return (
@@ -26,7 +26,7 @@ export default function Register(props) {
                     <div><BioComponent info={props} /></div>
                     <div><HomePostComponent /></div>
                     <div><InputPostComponents name={props} /></div>
-                    <div><SinglepostComponent post={props.posts} auth={auth}  action={props.action} /></div>
+                    <div><SinglepostComponent post={props.posts} auth={auth}  action={props.action}  allprops={props}/></div>
                 </div>
                 <div className="col-3 fixed-column w-25">
                     <Followeboxcomponent props={props} />

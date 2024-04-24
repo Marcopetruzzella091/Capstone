@@ -25,25 +25,17 @@ class WebScrapingController extends Controller
         ];
 
         // Esegui la richiesta GET con gli header aggiuntivi
-        $crawler = $client->request('GET', 'https://macchine-caffe.it/', [], [], $headers);
+        $crawler = $client->request('GET', 'https://www.aranzulla.it/', [], [], $headers);
 
         // Array per raccogliere i dati
         $data = [];
 
         // Estrarre i testi degli elementi span e salvarli nell'array
-        $crawler->filter('h3')->each(function ($node) use (&$data) {
+        $crawler->filter('article span')->each(function ($node) use (&$data) {
             $data['headings'][] = $node->text();
         });
 
-        // Estrarre gli attributi href degli elementi a e salvarli nell'array
-        // Decommenta il seguente blocco per attivarlo
-        /*
-        $crawler->filter('a')->each(function ($node) use (&$data) {
-            $data['links'][] = $node->attr('href');
-        });
-        */
-
-        // Ritorna l'array dei dati raccolti
+        
         return $data;
     }
 }

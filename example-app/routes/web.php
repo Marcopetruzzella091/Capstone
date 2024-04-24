@@ -45,10 +45,12 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::get ('/home', [AlluserController::class, 'index'])->name('alluser.index');
     Route::get ('/alluser/{id}', [AlluserController::class, 'show'])->name('alluser.show');
+    Route::get ('/alluser/{id}/{post}', [AlluserController::class, 'showpost'])->name('alluser.showpost');
+    Route::get ('/alluser/{id}/last', [AlluserController::class, 'showpostlast5'])->name('alluser.showpostlast5');
     Route::post ('/alluser', [AlluserController::class, 'store'])->name('alluser.store');
     Route::post ('/post', [PostController::class, 'store'])->name('post.store');
     Route::delete ('/post', [PostController::class, 'destroy'])->name('post.destroy');
-
+    Route::get ('/search/{input}', [AlluserController::class, 'search'])->name('alluser.search');
     Route::post ('/comment', [CommentController::class, 'store'])->name('comment.store');
     Route::delete ('/comment', [CommentController::class, 'destroy'])->name('comment.destroy');
 

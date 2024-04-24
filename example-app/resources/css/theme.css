@@ -14,6 +14,11 @@ html, body {
   
 }
 
+/* Stile per il menu a comparsa quando è aperto */
+#navbarScrollingDropdown.show .dropdown-menu {
+  width: 25vw; /* Larghezza del 25% dello schermo */
+  /* Aggiungi altri stili desiderati per il menu aperto */
+}
 
 .facebook-post, .create-post-container {
   border: 1px solid #ccc;
@@ -182,6 +187,9 @@ body a:not([class*='button'], .link-decoration, .nav-link):hover, body a:not([cl
 
 .adv1{
   padding: 40px;
+  border:none;
+  box-shadow: #1c1e20!important;
+  
 }
 .cardtext{
   font-size: 0.8em !important;
@@ -2482,3 +2490,4 @@ body.loaded:after {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: white;
 }
+

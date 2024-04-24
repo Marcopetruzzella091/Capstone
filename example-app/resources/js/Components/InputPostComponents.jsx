@@ -9,7 +9,7 @@ import { useSelector, useDispatch } from 'react-redux'
 
 
 function CreatePostModal(props) {
-  console.log(props)
+
   const [show, setShow] = useState(props.modal);
   const [show2, setShow2] = useState(false);
  

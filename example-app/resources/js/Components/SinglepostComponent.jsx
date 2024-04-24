@@ -6,8 +6,8 @@ import ListLikeCommentComponent from './ListLikeCommentComponent';
 
 export default function SinglepostComponent(props) {
   const [postToDelete, setPostToDelete] = useState(null);
-  console.log(props)
 
+console.log(props)
 
 
   const handleDeletePost = (post) => {
@@ -29,13 +29,15 @@ export default function SinglepostComponent(props) {
       preserveScroll: true
     });
   };
-
-  const handlelike = (postid, userid) => {
+ console.log(props)
+  const handlelike = (postid, userid, userliked) => {
+    
     router.visit('/like', {
       method: 'post',
       data: {
         postid: postid,
-        userid: userid
+        userid: userid,
+        userliked: userliked
       },
       preserveScroll: true
     });
@@ -68,17 +70,17 @@ export default function SinglepostComponent(props) {
             </div>
 
             <div className="post-content">
-            <p ><b>#{post.trend}</b></p>
+             { post.trend && <p ><b>#{post.trend}</b></p>}
               <p>{post.post_content}</p>
             </div>
             <div className="post-footer">
-              <span onClick={() => handlelike(post.id, props.auth)}>
-                <span >{post.like.every(like => like.user_id !== props.auth) ? <i class="bi bi-hand-thumbs-up"></i>: <i class="bi bi-hand-thumbs-up-fill"></i>}</span>
+              <span onClick={() => handlelike(post.id, props.auth, post.user.id)}>
+                <span >{post.like.every(like => like.user_id !== props.auth) ? <i className="bi bi-hand-thumbs-up " onClick={() => handlelike(post.id, props.auth)}></i>: <i onClick={() => handlelike(post.id, props.auth)} className="bi bi-hand-thumbs-up-fill"></i>}</span>
               </span>
               <ListlikeComponent  post={post} userlog={props} />
-              <PostComment post={post} userlog={props} />  · Condividi
+              <PostComment post={post} userlog={props} />  <span className="mx-2"> Condividi </span>
               {(post.user_id === props.auth || props.auth === post.board_user_id) && (
-                <button onClick={() => handleDeletePost(post.id)}>Elimina</button>
+                <button onClick={() => handleDeletePost(post.id)}>    Elimina</button>
               )}
             </div>
 
