@@ -16,7 +16,7 @@ export default function TrendsComponent(props) {
     let arrTrend = props.props.trends.daily_searches[0].searches;
     const count = useSelector((state) => state.counter.value)
      const dispatch = useDispatch()
-     console.log(count)
+     
    
     arrTrend.sort((a, b) => b.count - a.count);
     const [trendsel, setTrendSel] = useState("");
