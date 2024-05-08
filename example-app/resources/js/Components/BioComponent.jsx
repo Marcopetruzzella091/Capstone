@@ -18,7 +18,7 @@ export default function BioComponent(props) {
         <div className="row g-4 g-xl-5">
           <div className="col-12 col-xl-4">
             <div className="hero-avatar" >
-              <img src={"/storage/" + info.image_url} alt="" data-rjs="2"  className='rounded-circle' style={{ width: '200px', height: '200px' }}/>
+              <img src={"/profiles/" + info.image_url} alt="" data-rjs="2"  className='rounded-circle' style={{ width: '200px', height: '200px' }}/>
               <div className="hero-avatar-text">
                 <span className="typer" id="typer1" data-words="Hi There!, I'm Christina" data-delay="50" data-deletedelay="1500" style={{ color: 'black' }}> I'm {info.name}</span>
                 <span className="cursor" data-owner="typer1" style={{ transition: 'all 0.1s ease 0s', opacity: 1 }}>_</span>

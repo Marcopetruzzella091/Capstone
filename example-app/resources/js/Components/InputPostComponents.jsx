@@ -68,7 +68,7 @@ useEffect(() => {
       <div className="section-box mt-4">
         <div className='row align-items-center'>
           <div className="col-2">
-            <img src={`/storage/${props.name.auth.user.image_url}`} alt="Immagine Profilo" className="profile-pic" style={{ width: '50px', height: '50px', borderRadius: '50%' }} />
+            <img src={`/profiles/${props.name.auth.user.image_url}`} alt="Immagine Profilo" className="profile-pic" style={{ width: '50px', height: '50px', borderRadius: '50%' }} />
           </div>
           <div className="col-7" onClick={handleShow}>
             <input type="text" placeholder="Crea post su un trend" className="form-control" />

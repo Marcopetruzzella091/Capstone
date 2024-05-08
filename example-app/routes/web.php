@@ -5,6 +5,8 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Controllers\AlluserController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\NotificationsController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\LikeController;
@@ -57,6 +59,8 @@ Route::middleware('auth')->group(function () {
     Route ::post ('/like', [LikeController::class, 'store'])->name('like.store');
 
     Route ::post ('/follower', [FollowerController::class, 'store'])->name('follower.store');
+
+    Route::get ('/notification', [NotificationsController::class, 'index'])->name('notification.index');
     
      Route::get('/', function () {
         return redirect()->action('App\Http\Controllers\AlluserController@show', ['id' => Auth::user()->id]);
@@ -70,6 +74,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/homepage', [AlluserController::class, 'index'])->name('alluser.index');
     Route::get('/homepage/{trend}', [AlluserController::class, 'indexshow'])->name('alluser.indexshow');
     Route::post('commentlike', [CommentlikeController::class, 'store'])->name('commentlike.store');
+
+    Route::get ('/testevent}', function(){
+        return "ciao";
+    });
     
 
    /*  Route::get('dashboard', function () {

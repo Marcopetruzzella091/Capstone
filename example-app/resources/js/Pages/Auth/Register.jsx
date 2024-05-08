@@ -37,14 +37,14 @@ export default function Register() {
     };
 
     return (
-        <Container className="mt-5 p-5">
-           <Row className='justify-content-center bg-white'>
+        <Container   >
+           <Row className='justify-content-center bg-white w-75 mx-auto my-5'>
             
             
-            <div  >
+            <div  className='my-5 ' >
             <div className='mt-5 w-75 mx-auto'><img src="/logo.png" alt=""  className='my-2 w-25 mx-auto'/></div>
           <p className='text-center w-50 mx-auto'>
-OnTrend è un social network che offre agli utenti un'esperienza coinvolgente per esprimere e confrontare opinioni sui trend attuali, dalla moda alla tecnologia e alla cultura pop.</p>
+           OnTrend è un social network che offre agli utenti un'esperienza coinvolgente per esprimere e confrontare opinioni sui trend attuali, dalla moda alla tecnologia e alla cultura pop.</p>
             
          </div>
         
@@ -209,7 +209,7 @@ OnTrend è un social network che offre agli utenti un'esperienza coinvolgente pe
             </form>
         
         
-        </Row>
+        </Row >
         </Container>
     );
 }

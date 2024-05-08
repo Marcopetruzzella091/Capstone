@@ -14,6 +14,9 @@ html, body {
   
 }
 
+
+
+
 /* Stile per il menu a comparsa quando è aperto */
 #navbarScrollingDropdown.show .dropdown-menu {
   width: 25vw; /* Larghezza del 25% dello schermo */

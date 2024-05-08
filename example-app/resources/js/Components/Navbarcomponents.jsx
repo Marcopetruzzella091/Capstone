@@ -10,16 +10,39 @@ import ListGroup from 'react-bootstrap/ListGroup'; // Importa il componente List
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Form from 'react-bootstrap/Form';
-
+import axios from 'axios';
 
 export default function Navbarcomponents(props) {
   const [showA, setShowA] = useState(false);
   const [showB, setShowB] = useState(false);
+  const [showC, setShowC] = useState(false);
   const [searchResult, setSearchResult] = useState(null);
   const [query, setQuery] = useState('');
   const [error, setError] = useState(null);
+  const [notifications, setNotifications] = useState("");
+  const [reattimenotifications, setReattimenotifications] = useState("");
 
-
+  
+  const pusher = new Pusher('6540bbaeec368b20ce22', {
+    cluster: 'eu',
+    encrypted: true,
+  });
+  
+  const channel = pusher.subscribe('notifications');
+  channel.bind('new-notification', function(data) {
+    const { notification } = data;
+    // Controlla se l'ID dell'utente destinatario corrisponde all'ID dell'utente attualmente autenticato
+    {
+      setReattimenotifications(data);
+      setShowC(true);
+  
+      // Nascondi la notifica dopo 5 secondi
+      setTimeout(function() {
+        setShowC(false);
+      }, 5000);
+    }
+  });
+console.log(reattimenotifications)
 
   useEffect(() => {
     // Funzione per effettuare la chiamata AJAX
@@ -28,7 +51,7 @@ export default function Navbarcomponents(props) {
         // Verifica se la lunghezza della query è almeno 3
         if (query.length >= 3) {
           // Effettua la chiamata AJAX
-          const response = await fetch('http://127.0.0.1:8001/search/' + query);
+          const response = await fetch('http://127.0.0.1:8000/search/' + query);
   
           // Verifica se la risposta è ok (status 200)
           if (!response.ok) {
@@ -59,16 +82,72 @@ export default function Navbarcomponents(props) {
       // Eventuale pulizia
     };
   }, [query]);
+
+
+
+
+  useEffect(() => {
+    // Funzione per effettuare la chiamata AJAX
+    const fetchData = async () => {
+      try {
+        // Verifica se la lunghezza della query è almeno 3
+        if (showA) {
+          // Effettua la chiamata AJAX
+          const response = await fetch('/notification' );
+  
+          // Verifica se la risposta è ok (status 200)
+          if (!response.ok) {
+            throw new Error('Errore durante la richiesta');
+          }
+  
+          // Estrai i dati JSON dalla risposta
+          const data = await response.json();
+          console.log(data)
+  
+          // Imposta i dati nel nostro stato
+          setNotifications(data);
+          
+        } else {
+          // Pulisci i risultati se la query non è sufficientemente lunga
+          setSearchResult(null);
+        }
+      } catch (error) {
+        // Gestisci gli errori qui
+        setError(error.message);
+        console.log(error)
+      }
+    };
+  
+    // Chiamata alla funzione fetchData
+    fetchData();
+  
+    // Pulizia dell'effetto per evitare memory leak
+    return () => {
+      // Eventuale pulizia
+    };
+  }, [showA]);
+
+
   
   
 
   const toggleShowA = () => setShowA(!showA);
   const toggleShowB = () => setShowB(!showB);
+  const toggleShowC = () => setShowC(!showC);
  
 
     
   return (
     <>
+     {(showC ) &&  <div className="notification animate__animated animate__fadeIn " id="notification">
+  <img src={"/profiles/"+ reattimenotifications[0].user_sender.image_url} alt="User Image" class="user-image"/>
+  <div class="notification-text">
+    <p>a <strong>{reattimenotifications[0].user_sender.name} {reattimenotifications[0].user_sender.surname}</strong> {reattimenotifications[0].notification_content}</p>
+  </div>
+</div> }
+
+        
+
       <Navbar className='mb-5' style={{ backgroundColor: 'white', position: 'relative' }}>
         <Container>
           <Navbar.Brand href="#home"><img className="top-logo" src="/logo3.png" alt="bye" /></Navbar.Brand>
@@ -105,7 +184,7 @@ export default function Navbarcomponents(props) {
         <Link href={`/alluser/${user.id}`} key={user.id}>
         <ListGroup.Item key={user.id} >
           <div className="d-flex align-items-center m-0">
-            <img src={`/storage/${user.image_url}`} className="rounded me-2" alt="" style={{ width: '40px', height: '40px' }} />
+            <img src={`/profiles/${user.image_url}`} className="rounded me-2" alt="" style={{ width: '40px', height: '40px' }} />
             <div>
               <strong>{user.name} {user.surname}</strong>
               <p>{user.active_status === 1 ? 'Online' : 'Offline'}</p>
@@ -149,11 +228,11 @@ export default function Navbarcomponents(props) {
   </Toast.Header>
   <Toast.Body>
     <ListGroup>
-      {props.auth.notification.map((notification) => (
+      {notifications  &&  notifications.map((notification) => (
         <Link href={`/alluser/${notification.user_id_receiver}/${notification.post_id}`} key={notification.id}>
         <ListGroup.Item key={notification.id} >
           <div className="d-flex align-items-center">
-            <img src={`/storage/${notification.user_sender.image_url}`} className="rounded me-2" alt="" style={{ width: '40px', height: '40px' }} />
+            <img src={`/profiles/${notification.user_sender.image_url}`} className="rounded me-2" alt="" style={{ width: '40px', height: '40px' }} />
             <div>
               <strong>{notification.user_sender.name}</strong>
               <p>{notification.notification_content}</p>

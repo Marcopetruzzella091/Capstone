@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\notifications;
 use App\Http\Requests\StorenotificationsRequest;
 use App\Http\Requests\UpdatenotificationsRequest;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class NotificationsController extends Controller
 {
@@ -13,7 +15,8 @@ class NotificationsController extends Controller
      */
     public function index()
     {
-        //
+        $notification = notifications::where('user_id_receiver', '=', Auth::user()->id)->with('post', 'user_sender', 'user_receiver') ->get();
+        return $notification;
     }
 
     /**

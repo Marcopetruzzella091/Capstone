@@ -3,8 +3,21 @@ import { router } from '@inertiajs/react';
 import PostComment from './PostComment';
 import ListlikeComponent from './ListlikeComponent';
 import ListLikeCommentComponent from './ListLikeCommentComponent';
+import Pusher from 'pusher-js';
+
 
 export default function SinglepostComponent(props) {
+
+
+
+
+  
+
+
+
+
+
+
   const [postToDelete, setPostToDelete] = useState(null);
 
 console.log(props)
@@ -61,7 +74,7 @@ console.log(props)
           <div className="facebook-post bg-white">
             
             <div className="post-header">
-              <img src={`/storage/${post.user.image_url}`} onClick={() => router.visit(`/alluser/${post.user.id}`)} alt="Immagine Profilo" className="profile-pic" />
+              <img src={`/profiles/${post.user.image_url}`} onClick={() => router.visit(`/alluser/${post.user.id}`)} alt="Immagine Profilo" className="profile-pic" />
               <div>
                 <strong>{post.user.name + " " + post.user.surname}</strong> <br />
                 <span>ha pubblicato un post</span>

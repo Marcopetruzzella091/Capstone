@@ -6,6 +6,14 @@ use App\Models\like;
 use Illuminate\Http\Request;
 use  Illuminate\Support\Facades\Auth;
 use App\Models\notifications;
+use Pusher\Pusher;
+use App\Models\Post;
+
+
+
+
+use App\events\NotificationCreated;
+
 
 class LikeController extends Controller
 {
@@ -31,22 +39,44 @@ class LikeController extends Controller
     
     
      public function store(Request $request)
-     {   
+     {    
          // Controlla se esiste già un like con lo stesso post_id e user_id
          $existingLike = Like::where('post_id', $request->postid)
                              ->where('user_id', $request->userid)
                              ->first();
+                          
      
          // Se esiste già un like, elimina completamente il like
          if ($existingLike) {
              $existingLike->delete();
          } else {if ($request->userid != $request->userliked){
+            
             $notifications = notifications::create([
                 'user_id_sender' => $request->userid,
                 'user_id_receiver' => $request->userliked,
                 'post_id' => $request->postid,
                 'notification_content' => 'piace il tuo post',
             ]);}
+
+            $pusher = new Pusher(
+                env('PUSHER_APP_KEY'),
+                env('PUSHER_APP_SECRET'),
+                env('PUSHER_APP_ID'),
+                [
+                    'cluster' => env('PUSHER_APP_CLUSTER'),
+                    'useTLS' => true
+                ]
+            );
+            
+                $pusher->trigger('notifications', 'new-notification', [
+                    notifications::with('post', 'user_sender', 'user_receiver')->find($notifications->id)
+                   // 'recipient_id'=> $notifications->user_id_receiver
+                ]);
+            
+           
+
+
+
              // Se non esiste un like, crea un nuovo like con lo stato true
              $like = Like::create([
                  'post_id' => $request->postid,
@@ -55,6 +85,10 @@ class LikeController extends Controller
 
                  
              ]);
+            
+            
+             return response()->json(['success' => true]);
+            
          }
 
          
